@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+PRODID:HinduCalendar using drikPanchang.com by Hrishikesh Terdalkar
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241231
+DESCRIPTION:01\, Pushyamu\, Sukla Pakshamulu\, Padyami\, 1946 Krodhi\, Shaka Samvata\n** Ishti **\n(Padyami upto 10:51 PM)
+SUMMARY:India's regular Day
+UID:73f88698-fe14-43c4-aa7d-f38693941a64@73f8.org
+END:VEVENT
+END:VCALENDAR
