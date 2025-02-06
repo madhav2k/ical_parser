@@ -33,7 +33,7 @@ def extract_and_create_events(events):
     - Creates ICS events for each 'Dur Muhurtamulu' and 'Varjyam' entry.
     """
     cal = Calendar()
-    dur_acronyms = ["DUR", "DUM", "DUN", "DUS", "DUT"]  # Example acronyms starting with 'D'
+    dur_acronyms = ["DKR", "DUM", "DUN", "DUS", "DUT"]  # Example acronyms starting with 'D'
     var_acronyms = ["VAR", "VAX", "VIN", "VET", "VIV"]  # Example acronyms starting with 'V'
 
     for event in events:
