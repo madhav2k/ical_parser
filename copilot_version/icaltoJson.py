@@ -20,6 +20,6 @@ def parse_ics_to_json(ics_file_path):
     return json.dumps(events, indent=4)
 
 # Example usage
-ics_file_path = 'DrikFebruary2025.ics'
+ics_file_path = 'DrikMarch2025.ics'
 json_output = parse_ics_to_json(ics_file_path)
 print(json_output)

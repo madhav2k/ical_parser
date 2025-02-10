@@ -4,7 +4,7 @@ VERSION:2.0
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:a9a6c784897c1678bc2ec33369ea6776@ical.drikpanchang.com
-DTSTAMP:20250202T184846Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Chavithi Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:10 AM\nSunset - 05:33 PM\nMoonrise - 09:08 AM\nMoo
  nset - 09:30 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -25,7 +25,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:9820c40a0005567ab4b2ab5235d65167@ical.drikpanchang.com
-DTSTAMP:20250202T184846Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Panchami Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:09 AM\nSunset - 05:34 PM\nMoonrise - 09:35 AM\nMoo
  nset - 10:41 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -45,7 +45,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:724638da227b2bd21b86bf1e50e343e2@ical.drikpanchang.com
-DTSTAMP:20250202T184846Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Shashti Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:09 AM\nSunset - 05:35 PM\nMoonrise - 10:02 AM\nMoo
  nset - 11:54 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -65,7 +65,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:9be4f9b6c618fe6fea4ea59e03ccdd51@ical.drikpanchang.com
-DTSTAMP:20250202T184846Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Sapthami Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:08 AM\nSunset - 05:36 PM\nMoonrise - 10:32 AM\nMoo
  nset - 01:07 AM\, Feb 05\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -87,7 +87,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:204741c0236509ed5a17cd13e7ead50e@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Ashtami Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:07 AM\nSunset - 05:37 PM\nMoonrise - 11:07 AM\nMoo
  nset - 02:20 AM\, Feb 06\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -107,7 +107,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:692cc7bfe052b520578f608e2861dd1a@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Navami Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:06 AM\nSunset - 05:38 PM\nMoonrise - 11:50 AM\nMoo
  nset - 03:31 AM\, Feb 07\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -127,7 +127,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:0a0f3ead08205383793100b39152964e@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Dasami Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:05 AM\nSunset - 05:39 PM\nMoonrise - 12:41 PM\nMoo
  nset - 04:34 AM\, Feb 08\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -149,7 +149,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:a17c234ba2327b944f0e3114ba90d1aa@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Dwadasi Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:04 AM\nSunset - 05:40 PM\nMoonrise - 01:40 PM\nMoo
  nset - 05:29 AM\, Feb 09\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -171,7 +171,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:705f979cf9cc708d10a4c8862ce8fb4c@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Thrayodasi Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:03 AM\nSunset - 05:41 PM\nMoonrise - 02:46 PM\nMoo
  nset - 06:13 AM\, Feb 10\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -191,7 +191,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:4d1713d2998441db82b264418f69d9a4@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Chathurdasi Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:02 AM\nSunset - 05:42 PM\nMoonrise - 03:54 PM\nMoo
  nset - 06:49 AM\, Feb 11\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -211,7 +211,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:61fab689e57d458548b25a6dbfcd189e@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Pournami Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:01 AM\nSunset - 05:43 PM\nMoonrise - 05:01 PM\nMoo
  nset - No Moonset\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeek
@@ -233,7 +233,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:ade964a4f8c3e1581e7aed46da259ec6@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Padyami Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 07:00 AM\nSunset - 05:45 PM\nMoonrise - 06:06 PM\nMoo
  nset - 07:19 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -253,7 +253,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:30839d478d42c47765927f81428b11d9@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Vidiya Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:58 AM\nSunset - 05:46 PM\nMoonrise - 07:07 PM\nMoo
  nset - 07:44 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -272,7 +272,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:c7fed05f92dd273aba568f0eac45a1b9@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Vidiya Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:57 AM\nSunset - 05:47 PM\nMoonrise - 08:07 PM\nMoo
  nset - 08:06 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -292,7 +292,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:c1ec11c084d74d2dff78fde0c91aed00@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Thadiya Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:56 AM\nSunset - 05:48 PM\nMoonrise - 09:05 PM\nMoo
  nset - 08:28 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -312,7 +312,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:9699c2abf67c8030f44123b7a3f90227@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Chavithi Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:55 AM\nSunset - 05:49 PM\nMoonrise - 10:04 PM\nMoo
  nset - 08:49 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -331,7 +331,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:4c7e93fa36a9f99e23decfbf66fbb43b@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Panchami Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:54 AM\nSunset - 05:50 PM\nMoonrise - 11:02 PM\nMoo
  nset - 09:11 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWeekda
@@ -350,7 +350,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:52113a0339e0ba2c1bc8c47bcec88bee@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010444Z
 SUMMARY:Maghamu\, Shashti Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:53 AM\nSunset - 05:51 PM\nMoonrise - 12:03 AM\, Fe
  b 19\nMoonset - 09:36 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -370,7 +370,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:80a449d23cd90bc162bef4a965b1f346@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Sapthami Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:51 AM\nSunset - 05:52 PM\nMoonrise - 01:04 AM\, Fe
  b 20\nMoonset - 10:04 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -390,7 +390,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:c897a5b9923245d6bbdef5f439d33364@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Ashtami Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:50 AM\nSunset - 05:53 PM\nMoonrise - 02:06 AM\, Fe
  b 21\nMoonset - 10:38 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -410,7 +410,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:209d56a971396a0be988d236bc55226c@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Navami Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:49 AM\nSunset - 05:54 PM\nMoonrise - 03:06 AM\, Fe
  b 22\nMoonset - 11:19 AM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -430,7 +430,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:8a4f78b47afbdc39ed19165a1f288725@ical.drikpanchang.com
-DTSTAMP:20250202T184847Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Dasami Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:48 AM\nSunset - 05:55 PM\nMoonrise - 04:02 AM\, Fe
  b 23\nMoonset - 12:10 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -451,7 +451,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:1ba2b3c5c54b84812721470ce992fb7d@ical.drikpanchang.com
-DTSTAMP:20250202T184848Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Ekadasi Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:46 AM\nSunset - 05:56 PM\nMoonrise - 04:51 AM\, Fe
  b 24\nMoonset - 01:10 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -471,7 +471,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:01547dfc04dde4ecf87a403e992a15bf@ical.drikpanchang.com
-DTSTAMP:20250202T184848Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Dwadasi Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:45 AM\nSunset - 05:57 PM\nMoonrise - 05:33 AM\, Fe
  b 25\nMoonset - 02:17 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -492,7 +492,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:f56c55bd30026894a1318f0cf67b9623@ical.drikpanchang.com
-DTSTAMP:20250202T184848Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Thrayodasi Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:44 AM\nSunset - 05:58 PM\nMoonrise - 06:09 AM\, Fe
  b 26\nMoonset - 03:29 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Magham
@@ -513,7 +513,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:6d2bc4092773b1920bf27a127ab24c79@ical.drikpanchang.com
-DTSTAMP:20250202T184848Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Chathurdasi Krishna Pakshamulu\, 1946 Krodhi Shaka Samvat
  a
 DESCRIPTION:Sunrise - 06:42 AM\nSunset - 05:59 PM\nMoonrise - 06:40 AM\, Fe
@@ -534,7 +534,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:87a1875d3cf05a6a4e63e4bbbcaccbda@ical.drikpanchang.com
-DTSTAMP:20250202T184848Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Maghamu\, Amavasya Krishna Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:41 AM\nSunset - 06:00 PM\nMoonrise - No Moonrise\n
  Moonset - 05:57 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Maghamu\nWee
@@ -556,7 +556,7 @@ ORGANIZER;CN=Drik Panchang;SENT-BY=mailto:feedback@drikpanchang.com:mailto:
 END:VEVENT
 BEGIN:VEVENT
 UID:5fa79b4c8c7ad2d2c4669294e72bdb65@ical.drikpanchang.com
-DTSTAMP:20250202T184848Z
+DTSTAMP:20250210T010445Z
 SUMMARY:Phalgunamu\, Padyami Sukla Pakshamulu\, 1946 Krodhi Shaka Samvata
 DESCRIPTION:Sunrise - 06:40 AM\nSunset - 06:01 PM\nMoonrise - 07:08 AM\nMoo
  nset - 07:11 PM\nShaka Samvat - 1946 Krodhi\nLunar Month - Phalgunamu\nWee
@@ -578,7 +578,7 @@ END:VEVENT
 BEGIN:VTIMEZONE
 TZID:America/Los_Angeles
 BEGIN:STANDARD
-DTSTART:20250201T104846
+DTSTART:20250201T170444
 TZNAME:PST
 TZOFFSETTO:-0800
 TZOFFSETFROM:-0800
