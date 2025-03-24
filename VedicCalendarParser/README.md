@@ -133,4 +133,4 @@ The application includes comprehensive error handling for:
 
 ## Author
 
-[Add your name/contact information here]
+[Madhav Annamraju (AgenticData@pm.me)]
