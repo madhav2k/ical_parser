@@ -1,2 +1,22 @@
+# Existing entry
 icalJson.json
 
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+.env
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+
+#Requirements lock
+requirements*.lock
