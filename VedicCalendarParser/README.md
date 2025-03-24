@@ -5,7 +5,8 @@ A Python-based tool for parsing and manipulating calendar events, with special s
 ## Features
 
 - Convert ICS (iCalendar) files to JSON format
-- Convert JSON data back to ICS format
+- Extracts the events of user's interest from the JSON file
+- Converts events back to ICS format and spits out a .ics file which can be directly imported into any ICS compatible calendar
 - Vedic astrology calculations (Hora calculations)
 - Support for multiple languages (English, Hindi, Tamil, Telugu, Malayalam)
 - Timezone-aware date/time handling
