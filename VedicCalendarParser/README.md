@@ -67,7 +67,7 @@ The application will:
 The application expects and generates the following files:
 
 - **Input File:**
-  - Any file with .ics extension (entered when prompted)
+  - A Vedic digital calendar in .ics format(entered when prompted). Typically such a file can be obtained from websites like Drikpanchang.com
 
 - **Output Files:**
   - `icalJson.json` - Intermediate JSON representation of the calendar events
