@@ -129,8 +129,8 @@ The application includes comprehensive error handling for:
 
 ## License
 
-[Add your license information here]
+MIT
 
 ## Author
 
-[Madhav Annamraju (AgenticData@pm.me)]
+Madhav Annamraju (AgenticData@pm.me)
