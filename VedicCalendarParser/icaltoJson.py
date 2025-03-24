@@ -11,9 +11,9 @@ def convert_ical_to_json(ical_file_path):
         for component in calendar.walk():
             if component.name == "VEVENT":
                 event = {
-                    "summary": str(component.get("summary")),
-                    "dtstart": str(component.get("dtstart").dt),
-                    "dtend": str(component.get("dtend").dt),
+                    "summary": str(component.get("summary", "")),
+                    "dtstart": str(component.get("dtstart").dt) if component.get("dtstart") else "",
+                    "dtend": str(component.get("dtend").dt) if component.get("dtend") else "",
                     "description": str(component.get("description", "")),
                 }
                 events.append(event)
