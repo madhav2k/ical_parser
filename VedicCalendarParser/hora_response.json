@@ -1,0 +1,175 @@
+{
+  "status": 200,
+  "response": {
+    "horas": [
+      {
+        "start": "Sun Mar 23 2025 6:07:26 AM",
+        "end": "Sun Mar 23 2025 7:08:45 AM",
+        "hora": "Sun",
+        "benefits": "Good time for job application, new campaign, political efforts and starting new task ",
+        "lucky_gem": "Ruby"
+      },
+      {
+        "start": "Sun Mar 23 2025 7:08:45 AM",
+        "end": "Sun Mar 23 2025 8:10:03 AM",
+        "hora": "Venus",
+        "benefits": "Auspicious time for starting fine arts such as art, music and dance. Good time to start modelling, purchase jewellery, luxury items and start a romantic relationship .",
+        "lucky_gem": "Opal/Diamond"
+      },
+      {
+        "start": "Sun Mar 23 2025 8:10:03 AM",
+        "end": "Sun Mar 23 2025 9:11:22 AM",
+        "hora": "Mercury",
+        "benefits": "Great time to start a business, accounting,finances and starting education. One can take up commiunication and media sessions during this time",
+        "lucky_gem": "Emerald"
+      },
+      {
+        "start": "Sun Mar 23 2025 9:11:22 AM",
+        "end": "Sun Mar 23 2025 10:12:40 AM",
+        "hora": "Moon",
+        "benefits": "Good time to start any new task, social services, gardening and maintainence",
+        "lucky_gem": "Pearl"
+      },
+      {
+        "start": "Sun Mar 23 2025 10:12:40 AM",
+        "end": "Sun Mar 23 2025 11:13:59 AM",
+        "hora": "Saturn",
+        "benefits": "Good time to indulge in heavy machinery, construction efforts, judiciary, farming and mining",
+        "lucky_gem": "Blue Sapphire/Amethyst/Hessonite"
+      },
+      {
+        "start": "Sun Mar 23 2025 11:13:59 AM",
+        "end": "Sun Mar 23 2025 12:15:18 PM",
+        "hora": "Jupiter",
+        "benefits": "Auspicious for marriage, education, wisdom, meeting with high dignitaries, purchasing of clothes. This is a great time to mentor people",
+        "lucky_gem": "yellow sapphire"
+      },
+      {
+        "start": "Sun Mar 23 2025 12:15:18 PM",
+        "end": "Sun Mar 23 2025 1:16:36 PM",
+        "hora": "Mars",
+        "benefits": "New business, judicial efforts, army training/actions, administrative efforts, purchasing properties and political arguments can be done during this period",
+        "lucky_gem": "Coral/Cat's eye"
+      },
+      {
+        "start": "Sun Mar 23 2025 1:16:36 PM",
+        "end": "Sun Mar 23 2025 2:17:55 PM",
+        "hora": "Sun",
+        "benefits": "Good time for job application, new campaign, political efforts and starting new task ",
+        "lucky_gem": "Ruby"
+      },
+      {
+        "start": "Sun Mar 23 2025 2:17:55 PM",
+        "end": "Sun Mar 23 2025 3:19:13 PM",
+        "hora": "Venus",
+        "benefits": "Auspicious time for starting fine arts such as art, music and dance. Good time to start modelling, purchase jewellery, luxury items and start a romantic relationship .",
+        "lucky_gem": "Opal/Diamond"
+      },
+      {
+        "start": "Sun Mar 23 2025 3:19:13 PM",
+        "end": "Sun Mar 23 2025 4:20:32 PM",
+        "hora": "Mercury",
+        "benefits": "Great time to start a business, accounting,finances and starting education. One can take up commiunication and media sessions during this time",
+        "lucky_gem": "Emerald"
+      },
+      {
+        "start": "Sun Mar 23 2025 4:20:32 PM",
+        "end": "Sun Mar 23 2025 5:21:50 PM",
+        "hora": "Moon",
+        "benefits": "Good time to start any new task, social services, gardening and maintainence",
+        "lucky_gem": "Pearl"
+      },
+      {
+        "start": "Sun Mar 23 2025 5:21:50 PM",
+        "end": "Sun Mar 23 2025 6:23:09 PM",
+        "hora": "Saturn",
+        "benefits": "Good time to indulge in heavy machinery, construction efforts, judiciary, farming and mining",
+        "lucky_gem": "Blue Sapphire/Amethyst/Hessonite"
+      },
+      {
+        "start": "Sun Mar 23 2025 6:23:09 PM",
+        "end": "Sun Mar 23 2025 7:24:28 PM",
+        "hora": "Jupiter",
+        "benefits": "Auspicious for marriage, education, wisdom, meeting with high dignitaries, purchasing of clothes. This is a great time to mentor people",
+        "lucky_gem": "yellow sapphire"
+      },
+      {
+        "start": "Sun Mar 23 2025 7:21:43 PM",
+        "end": "Sun Mar 23 2025 8:20:17 PM",
+        "hora": "Mars",
+        "benefits": "New business, judicial efforts, army training/actions, administrative efforts, purchasing properties and political arguments can be done during this period",
+        "lucky_gem": "Coral/Cat's eye"
+      },
+      {
+        "start": "Sun Mar 23 2025 8:20:17 PM",
+        "end": "Sun Mar 23 2025 9:18:50 PM",
+        "hora": "Sun",
+        "benefits": "Good time for job application, new campaign, political efforts and starting new task ",
+        "lucky_gem": "Ruby"
+      },
+      {
+        "start": "Sun Mar 23 2025 9:18:50 PM",
+        "end": "Sun Mar 23 2025 10:17:24 PM",
+        "hora": "Venus",
+        "benefits": "Auspicious time for starting fine arts such as art, music and dance. Good time to start modelling, purchase jewellery, luxury items and start a romantic relationship .",
+        "lucky_gem": "Opal/Diamond"
+      },
+      {
+        "start": "Sun Mar 23 2025 10:17:24 PM",
+        "end": "Sun Mar 23 2025 11:15:58 PM",
+        "hora": "Mercury",
+        "benefits": "Great time to start a business, accounting,finances and starting education. One can take up commiunication and media sessions during this time",
+        "lucky_gem": "Emerald"
+      },
+      {
+        "start": "Sun Mar 23 2025 11:15:58 PM",
+        "end": "Mon Mar 24 2025 12:14:32 AM",
+        "hora": "Moon",
+        "benefits": "Good time to start any new task, social services, gardening and maintainence",
+        "lucky_gem": "Pearl"
+      },
+      {
+        "start": "Mon Mar 24 2025 12:14:32 AM",
+        "end": "Mon Mar 24 2025 1:13:06 AM",
+        "hora": "Saturn",
+        "benefits": "Good time to indulge in heavy machinery, construction efforts, judiciary, farming and mining",
+        "lucky_gem": "Blue Sapphire/Amethyst/Hessonite"
+      },
+      {
+        "start": "Mon Mar 24 2025 1:13:06 AM",
+        "end": "Mon Mar 24 2025 2:11:40 AM",
+        "hora": "Jupiter",
+        "benefits": "Auspicious for marriage, education, wisdom, meeting with high dignitaries, purchasing of clothes. This is a great time to mentor people",
+        "lucky_gem": "yellow sapphire"
+      },
+      {
+        "start": "Mon Mar 24 2025 2:11:40 AM",
+        "end": "Mon Mar 24 2025 3:10:14 AM",
+        "hora": "Mars",
+        "benefits": "New business, judicial efforts, army training/actions, administrative efforts, purchasing properties and political arguments can be done during this period",
+        "lucky_gem": "Coral/Cat's eye"
+      },
+      {
+        "start": "Mon Mar 24 2025 3:10:14 AM",
+        "end": "Mon Mar 24 2025 4:08:47 AM",
+        "hora": "Sun",
+        "benefits": "Good time for job application, new campaign, political efforts and starting new task ",
+        "lucky_gem": "Ruby"
+      },
+      {
+        "start": "Mon Mar 24 2025 4:08:47 AM",
+        "end": "Mon Mar 24 2025 5:07:21 AM",
+        "hora": "Venus",
+        "benefits": "Auspicious time for starting fine arts such as art, music and dance. Good time to start modelling, purchase jewellery, luxury items and start a romantic relationship .",
+        "lucky_gem": "Opal/Diamond"
+      },
+      {
+        "start": "Mon Mar 24 2025 5:07:21 AM",
+        "end": "Mon Mar 24 2025 6:05:55 AM",
+        "hora": "Mercury",
+        "benefits": "Great time to start a business, accounting,finances and starting education. One can take up commiunication and media sessions during this time",
+        "lucky_gem": "Emerald"
+      }
+    ]
+  }
+}

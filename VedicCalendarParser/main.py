@@ -2,31 +2,19 @@ from icaltoJson import convert_ical_to_json, save_json_to_file
 from icalParser6 import extract_and_create_events
 import os
 import sys
-
-def validate_ics_file(file_path):
-    """Validate that the file exists and has .ics extension."""
-    if not os.path.exists(file_path):
-        print(f"Error: File '{file_path}' does not exist.")
-        return False
-    
-    if not file_path.lower().endswith('.ics'):
-        print(f"Error: File '{file_path}' is not an ICS file. Please provide a file with .ics extension.")
-        return False
-    
-    return True
-
-def get_input_file():
-    """Get input file path from user with validation."""
-    while True:
-        file_path = input("Please enter the path to your ICS file: ").strip()
-        if validate_ics_file(file_path):
-            return file_path
-        print("Please try again with a valid ICS file path.")
+from datetime import datetime
 
 def main():
     try:
-        # Get input file from user
-        input_file = get_input_file()
+        # Use April2025.ics as the default input file
+        input_file = 'April2025.ics'
+        if not os.path.exists(input_file):
+            print(f"Error: Default input file '{input_file}' does not exist.")
+            sys.exit(1)
+
+        # Set date range for April 2025
+        start_date = datetime(2025, 4, 1)
+        end_date = datetime(2025, 4, 30)
 
         # Step 1: Convert ICS to JSON
         json_file_path = 'icalJson.json'
@@ -42,15 +30,22 @@ def main():
 
         # Step 2: Convert JSON to ICS
         print("Converting JSON to ICS...")
-        ics_calendar = extract_and_create_events(events)
-        if not ics_calendar:
-            print("Error: Failed to create ICS calendar from events.")
+        ics_calendar, hora_calendar = extract_and_create_events(events, start_date, end_date)
+        if not ics_calendar or not hora_calendar:
+            print("Error: Failed to create ICS calendars from events.")
             return
 
-        output_ics_path = 'BlockingDVEvents.ics'
+        # Save the original events
+        output_ics_path = 'vedic_events.ics'
         with open(output_ics_path, 'wb') as ics_file:
             ics_file.write(ics_calendar.to_ical())
-        print(f"ICS file created successfully at {output_ics_path}.")
+        print(f"Original events saved to {output_ics_path}")
+
+        # Save the hora events
+        hora_ics_path = 'hora_events.ics'
+        with open(hora_ics_path, 'wb') as ics_file:
+            ics_file.write(hora_calendar.to_ical())
+        print(f"Hora events saved to {hora_ics_path}")
 
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
