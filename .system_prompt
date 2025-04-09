@@ -1,0 +1,5 @@
+ 1. source ~/.bash_profile. 
+ 2. This is a rye managed environment. Ensure that we run rye sync
+ 3. Source folder is VedicCalendarParser
+ 4. The entry point of the application is main.py
+ 5. Assume that the input file is April2025.ics unless specified and don't ask the user for input if that file is present. 

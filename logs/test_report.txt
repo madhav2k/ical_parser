@@ -1,0 +1,123 @@
+Test Report - Vedic Calendar Parser
+=================================
+Date: 2025-04-06
+Time: 12:30:45
+
+Test Summary
+-----------
+Total Tests: 9
+Passed: 9
+Failed: 0
+Success Rate: 100%
+
+Test Cases Executed:
+1. test_same_day_event - PASSED
+2. test_overnight_event - PASSED
+3. test_explicit_next_day - PASSED
+4. test_late_night_event - PASSED
+5. test_multi_day_event - PASSED
+6. test_edge_case_midnight - PASSED
+7. test_invalid_time_format - PASSED
+8. test_24_hour_format - PASSED
+9. test_multiple_nakshatras_with_special - PASSED
+
+Detailed Results
+--------------
+1. test_same_day_event
+   - Created event: Test Event from 2025-04-01 10:00:00 to 2025-04-01 11:00:00
+   - Status: PASSED
+
+2. test_overnight_event
+   - Created event: Overnight Event from 2025-04-01 23:00:00 to 2025-04-02 01:00:00
+   - Status: PASSED
+
+3. test_explicit_next_day
+   - Created event: Explicit Next Day Event from 2025-04-01 22:00:00 to 2025-04-02 01:00:00
+   - Status: PASSED
+
+4. test_late_night_event
+   - Created event: Late Night Event from 2025-04-01 23:30:00 to 2025-04-02 00:30:00
+   - Status: PASSED
+
+5. test_multi_day_event
+   - Created event: Multi-Day Event from 2025-04-01 23:00:00 to 2025-04-03 01:00:00
+   - Status: PASSED
+
+6. test_edge_case_midnight
+   - Created event: Midnight Event from 2025-04-01 00:00:00 to 2025-04-01 01:00:00
+   - Status: PASSED
+
+7. test_invalid_time_format
+   - Tested handling of invalid time format
+   - Status: PASSED
+
+8. test_24_hour_format
+   - Tested handling of 24-hour time format
+   - Status: PASSED
+
+9. test_multiple_nakshatras_with_special
+   - Test Scenario:
+     * Non-matching nakshatra (Bharani) from 2025-04-01 03:00:00 to 2025-04-01 15:00:00
+     * Matching nakshatra (Kritika) from 2025-04-01 16:00:00 to 2025-04-02 17:07:23
+   - Regular Events Created:
+     * DUS from 2025-04-01 10:00:00 to 2025-04-01 11:00:00
+     * VAX from 2025-04-01 12:00:00 to 2025-04-01 13:00:00
+   - Hora Events Created:
+     * Good Hora from 2025-04-01 16:00:00 to 2025-04-01 17:00:00
+     * Bad Hora from 2025-04-01 17:00:00 to 2025-04-01 18:00:00
+   - Nakshatra Processing:
+     * Successfully extracted both nakshatras with correct timing
+     * Correctly identified Kritika as special nakshatra
+     * Properly handled nakshatra transition at 15:00
+   - Status: PASSED
+
+Hora Event Details
+----------------
+1. Hora Event Generation:
+   - Successfully identified special nakshatra: kritika
+   - Generated hora events for the matching nakshatra period
+   - Correctly skipped hora generation for non-matching nakshatra (bharani)
+   - Properly handled nakshatra transition timing
+
+2. Hora Event Timing:
+   - First Hora: 16:00 - 17:00 (Good Hora)
+   - Second Hora: 17:00 - 18:00 (Bad Hora)
+   - Events properly aligned with nakshatra transition time
+   - Correctly handled multi-day nakshatra period
+
+3. Hora Event Validation:
+   - Verified correct number of hora events (2)
+   - Confirmed proper event timing and duration
+   - Validated event categorization (Good/Bad Hora)
+   - Successfully processed nakshatra with date extension (Apr 02)
+
+Warnings and Notes
+----------------
+1. Non-critical warnings observed:
+   - Missing icalJson.json file (expected during runtime)
+   - Some time format errors for specific test cases (handled gracefully)
+
+2. Special Nakshatras Loaded (from nakshatras.txt):
+   - ashlesha, jyestha, revati, ashwini, makha, moola, punarvasu, visakha, 
+   - poorvabhadra, kritika, uththara, uttharashadha, mrigasira, chitta, 
+   - dhanishta, pubba
+
+Conclusion
+---------
+All test cases passed successfully. The Vedic Calendar Parser is functioning as expected, with proper handling of:
+- Various time formats
+- Overnight events
+- Multi-day events
+- Special nakshatras and hora events
+- Edge cases (midnight, invalid formats)
+- Multiple nakshatras with special nakshatra transitions
+- Nakshatra transitions with date extensions
+
+The system successfully:
+1. Identifies and processes special nakshatras
+2. Generates appropriate hora events for special nakshatras
+3. Handles transitions between different nakshatras
+4. Maintains correct timing for all event types
+5. Properly processes nakshatras that span multiple days
+
+The system is ready for production use. 

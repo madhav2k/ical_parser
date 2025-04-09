@@ -58,11 +58,27 @@ def extract_nakshatra_from_description(description):
     
     for line in lines:
         if 'Nakshatramulu' in line:
-            # Extract nakshatra periods
-            periods = re.findall(r'([A-Za-z]+) (?:-|upto) (\d{1,2}:\d{2} [AP]M)(?:, ([A-Za-z]{3} \d{1,2}))?', line)
+            # Extract nakshatra periods - using a more flexible regex pattern
+            # This will capture both "Nakshatra - time" and "Nakshatra upto time" formats
+            # Also handles potential date information
+            periods = re.findall(r'([A-Za-z]+)\s+(?:-|upto)\s+(\d{1,2}:\d{2}\s*[AP]M)(?:,?\s*([A-Za-z]{3}\s*\d{1,2}))?', line)
+            
+            # Log the raw extracted periods for debugging
+            logger.info(f"Raw nakshatra periods found in line: {periods}")
+            
             for nakshatra, time_str, date_str in periods:
                 # Normalize nakshatra name to match the list
-                nakshatra = nakshatra.lower()
+                nakshatra = nakshatra.lower().strip()
+                time_str = time_str.strip()
+                
+                # Log individual extraction
+                logger.info(f"Extracted nakshatra: {nakshatra}, time: {time_str}, date: {date_str}")
+                
+                # Check if this is a special nakshatra
+                is_special = nakshatra in SPECIAL_NAKSHATRAS
+                if is_special:
+                    logger.info(f"Found special nakshatra: {nakshatra}")
+                
                 nakshatras.append((nakshatra, time_str, date_str))
     
     return nakshatras
@@ -275,35 +291,32 @@ def extract_and_create_events(events_list, start_date, end_date):
             # Sort nakshatras by end_time
             nakshatras.sort(key=lambda x: datetime.strptime(x['end_time'], '%H:%M'))
             
-            # Only process special nakshatra transitions
-            for i in range(len(nakshatras) - 1):
+            # Process each special nakshatra (not just transitions)
+            for i in range(len(nakshatras)):
                 current_nakshatra = nakshatras[i]['nakshatra']
-                next_nakshatra = nakshatras[i + 1]['nakshatra']
                 
-                logger.info(f"Checking transition: {current_nakshatra} -> {next_nakshatra}")
-                
-                # Check if both nakshatras are in the special list
-                if current_nakshatra in SPECIAL_NAKSHATRAS and next_nakshatra in SPECIAL_NAKSHATRAS:
-                    logger.info(f"Found special nakshatra transition: {current_nakshatra} -> {next_nakshatra}")
+                # Check if the current nakshatra is in the special list
+                if current_nakshatra in SPECIAL_NAKSHATRAS:
+                    logger.info(f"Found special nakshatra: {current_nakshatra}")
                     
-                    # First nakshatra ends at its end_time, next nakshatra starts at 00:00 and ends at its end_time
-                    start_time = datetime.strptime(nakshatras[i]['end_time'], '%H:%M')
-                    end_time = datetime.strptime(nakshatras[i + 1]['end_time'], '%H:%M')
+                    # Set start_time and end_time for the special nakshatra period
+                    start_time = datetime.strptime('00:00', '%H:%M') if i == 0 else datetime.strptime(nakshatras[i-1]['end_time'], '%H:%M')
+                    end_time = datetime.strptime(nakshatras[i]['end_time'], '%H:%M')
                     
-                    # Create datetime objects for the transition period
-                    transition_start = datetime.combine(current_date, start_time.time())
-                    transition_end = datetime.combine(current_date, end_time.time())
+                    # Create datetime objects for the period
+                    period_start = datetime.combine(current_date, start_time.time())
+                    period_end = datetime.combine(current_date, end_time.time())
                     
                     # If end time is before start time, it's the next day
-                    if transition_end < transition_start:
-                        transition_end += timedelta(days=1)
+                    if period_end < period_start:
+                        period_end += timedelta(days=1)
                     
-                    logger.info(f"Calculating hora events from {transition_start} to {transition_end}")
+                    logger.info(f"Calculating hora events from {period_start} to {period_end}")
                     
                     # Get hora data from API
                     client = VedicAstroClient()
                     location = Location(37.33939, -121.89496)  # San Jose coordinates
-                    hora_result = calculate_hora_for_date(client, location, transition_start)
+                    hora_result = calculate_hora_for_date(client, location, period_start)
                     
                     if hora_result and hora_result.get('status') == 200:
                         hora_data = hora_result.get('response', {}).get('horas', [])
@@ -336,6 +349,74 @@ def extract_and_create_events(events_list, start_date, end_date):
                                 continue
                     else:
                         logger.error(f"Error getting hora data: {hora_result}")
+                else:
+                    logger.info(f"Not a special nakshatra: {current_nakshatra}")
+                    
+            # Also process special nakshatra transitions for completeness
+            for i in range(len(nakshatras) - 1):
+                current_nakshatra = nakshatras[i]['nakshatra']
+                next_nakshatra = nakshatras[i + 1]['nakshatra']
+                
+                logger.info(f"Checking transition: {current_nakshatra} -> {next_nakshatra}")
+                
+                # Check if both nakshatras are in the special list
+                if current_nakshatra in SPECIAL_NAKSHATRAS and next_nakshatra in SPECIAL_NAKSHATRAS:
+                    logger.info(f"Found special nakshatra transition: {current_nakshatra} -> {next_nakshatra}")
+                    
+                    # First nakshatra ends at its end_time, next nakshatra starts at the same time
+                    start_time = datetime.strptime(nakshatras[i]['end_time'], '%H:%M')
+                    end_time = datetime.strptime(nakshatras[i + 1]['end_time'], '%H:%M')
+                    
+                    # Create datetime objects for the transition period
+                    transition_start = datetime.combine(current_date, start_time.time())
+                    transition_end = datetime.combine(current_date, end_time.time())
+                    
+                    # If end time is before start time, it's the next day
+                    if transition_end < transition_start:
+                        transition_end += timedelta(days=1)
+                    
+                    logger.info(f"Calculating hora events from {transition_start} to {transition_end}")
+                    
+                    # Get hora data from API
+                    client = VedicAstroClient()
+                    location = Location(37.33939, -121.89496)  # San Jose coordinates
+                    
+                    try:
+                        hora_result = calculate_hora_for_date(client, location, transition_start)
+                        
+                        if hora_result and hora_result.get('status') == 200:
+                            hora_data = hora_result.get('response', {}).get('horas', [])
+                            logger.info(f"Received {len(hora_data)} hora events from API for transition")
+                            
+                            # Process each hora period
+                            for hora in hora_data:
+                                logger.info(f"Raw hora data - start: {hora.get('start')}, end: {hora.get('end')}, planet: {hora.get('hora')}")
+                                
+                                # Parse datetime strings
+                                try:
+                                    start_dt = datetime.strptime(hora.get('start'), "%a %b %d %Y %I:%M:%S %p")
+                                    end_dt = datetime.strptime(hora.get('end'), "%a %b %d %Y %I:%M:%S %p")
+                                    
+                                    # Only create events for Jupiter, Moon, and Mercury
+                                    if hora.get('hora') in ['Jupiter', 'Moon', 'Mercury']:
+                                        # Create hora event
+                                        event = Event()
+                                        event.add('summary', f"Hora: {hora.get('hora')} (Transition)")
+                                        event.add('dtstart', start_dt)
+                                        event.add('dtend', end_dt)
+                                        event.add('description', f"Transition: {current_nakshatra} → {next_nakshatra}\nBenefits: {hora.get('benefits', '')}\nLucky Gem: {hora.get('lucky_gem', '')}")
+                                        event.add('categories', [hora.get('hora')])
+                                        event.add('class', 'FREE')
+                                        
+                                        hora_calendar.add_component(event)
+                                        logger.info(f"Created transition hora event: {hora.get('hora')} from {start_dt} to {end_dt}")
+                                except ValueError as e:
+                                    logger.error(f"Error parsing datetime: {e}")
+                                    continue
+                        else:
+                            logger.error(f"Error getting hora data for transition: {hora_result}")
+                    except Exception as e:
+                        logger.error(f"Exception during hora calculation: {str(e)}")
                 else:
                     logger.info(f"Not a special transition. Current: {current_nakshatra} in special list: {current_nakshatra in SPECIAL_NAKSHATRAS}, Next: {next_nakshatra} in special list: {next_nakshatra in SPECIAL_NAKSHATRAS}")
         

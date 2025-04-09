@@ -35,7 +35,7 @@ class Location:
 class VedicAstroClient:
     """Client for interacting with the Vedic Astro API."""
     
-    def __init__(self, api_key='1c998321-4363-5535-91a6-2331c3c2c012'):
+    def __init__(self, api_key='82c9fc43-1455-5016-b28b-43e78e614c34'):
         self.api_key = api_key
         self.base_url = "api.vedicastroapi.com"
         

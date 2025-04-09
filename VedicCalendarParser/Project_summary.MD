@@ -12,6 +12,31 @@ This project is a specialized calendar application that processes Vedic/Hindu as
 4. **Filtering**: Can filter hora events to only include specific planets (Jupiter, Moon, Mercury).
 5. **ICS File Generation**: Creates standard calendar files that can be imported into most calendar applications.
 
+## Development Prompts
+
+The project was developed using AI assistance with these key prompting strategies:
+
+1. **Data Extraction Prompts**: 
+   - Instructions to parse the description tag from JSON/ICS files and extract specific event types like 'Dur Muhurtamulu' and 'Varjyam'
+   - Time format handling in the format "startTime to endTime"
+
+2. **Event Creation Prompts**:
+   - Guidelines for creating ICS format events with proper start and end times
+   - Instructions for handling special cases like date transitions (when times include a comma)
+   - Implementation of event classification (marking events as private)
+
+3. **Processing Logic Prompts**:
+   - Direction for filtering specific planetary events (Jupiter, Moon, Mercury)
+   - Special nakshatra transition identification criteria
+   - Hora calculation integration with external API services
+
+4. **Code Structure Prompts**:
+   - Function design guidance (like `create_ics_event` and `extract_and_create_events`)
+   - Process flow from JSON parsing to calendar generation
+   - Error handling and logging requirements
+
+These prompts guided the development of key functions including datetime handling, event creation, ICS file formatting, and the overall processing pipeline.
+
 ## Files and Components
 
 ### Main Files
