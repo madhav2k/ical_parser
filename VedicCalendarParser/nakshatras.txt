@@ -2,6 +2,7 @@ ashlesha
 jyeshtha
 revati
 ashwini
+aswini
 makha
 Moola
 punarvasu
@@ -11,7 +12,9 @@ kritika
 kriththika
 uttara
 uttarashada
+uttharashadha
 mrigashira
+mrigasira
 chitta
 dhanishtha
 pubba

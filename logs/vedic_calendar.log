@@ -1,983 +1,298 @@
-2025-04-07 13:52:35,001 - INFO - icalParser6.py:<module> - Loaded special nakshatras: ['ashlesha', 'jyeshtha', 'revati', 'ashwini', 'makha', 'moola', 'punarvasu', 'visakha', 'purvabhadrapada', 'kritika', 'uttara', 'uttarashada', 'mrigashira', 'chitta', 'dhanishtha', 'pubba', 'magha', 'uttara', 'uththara', 'chitta', 'visakha', 'jyeshtha', 'mula', 'uttarashada', 'poorvabhadra', 'revati', 'ashwini', 'bharani']
-2025-04-07 13:52:35,001 - ERROR - icalParser6.py:<module> - Error reading April2025.ics: [Errno 2] No such file or directory: 'April2025.ics'
-2025-04-07 13:52:35,001 - INFO - icalParser6.py:extract_and_create_events - Starting extract_and_create_events in debug mode
-2025-04-07 13:52:35,001 - INFO - icalParser6.py:extract_and_create_events - Processing 0 events
-2025-04-07 13:52:35,001 - INFO - icalParser6.py:extract_and_create_events - Initialized VedicAstroClient with location: 37.33939, -121.89496
-2025-04-07 13:52:35,001 - INFO - icalParser6.py:extract_and_create_events - Sorted nakshatra periods: []
-2025-04-07 13:52:35,001 - INFO - icalParser6.py:extract_and_create_events - Completed processing all events
-2025-04-07 13:52:35,001 - INFO - icalParser6.py:extract_and_create_events - Created 1 regular events and 1 hora events
-2025-04-07 13:52:35,002 - INFO - icalParser6.py:<module> - Original events have been saved to vedic_events.ics
-2025-04-07 13:52:35,003 - INFO - icalParser6.py:<module> - Hora events have been saved to hora_events.ics
-2025-04-07 13:52:41,634 - INFO - icalParser6.py:extract_and_create_events - Starting extract_and_create_events in debug mode
-2025-04-07 13:52:41,635 - INFO - icalParser6.py:extract_and_create_events - Processing 30 events
-2025-04-07 13:52:41,635 - INFO - icalParser6.py:extract_and_create_events - Initialized VedicAstroClient with location: 37.33939, -121.89496
-2025-04-07 13:52:41,643 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-01 00:00:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-01 00:00:00: [('kriththika', '08:19 PM', '')]
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: kriththika from 2025-04-01 00:00:00 to 2025-04-01 20:19:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-02 00:00:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-02 00:00:00: [('rohini', '06:32 PM', '')]
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: rohini from 2025-04-02 00:00:00 to 2025-04-02 18:32:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-03 00:00:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-03 00:00:00: [('mrigasira', '05:21 PM', '')]
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: mrigasira from 2025-04-03 00:00:00 to 2025-04-03 17:21:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-04 00:00:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-04 00:00:00: [('arudra', '04:50 PM', '')]
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: arudra from 2025-04-04 00:00:00 to 2025-04-04 16:50:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-05 00:00:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-05 00:00:00: [('punarvasu', '05:02 PM', '')]
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: punarvasu from 2025-04-05 00:00:00 to 2025-04-05 17:02:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-06 00:00:00
-2025-04-07 13:52:41,644 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-06 00:00:00: [('pushyami', '05:55 PM', '')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: pushyami from 2025-04-06 00:00:00 to 2025-04-06 17:55:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-07 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-07 00:00:00: [('ashlesha', '07:25 PM', '')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: ashlesha from 2025-04-07 00:00:00 to 2025-04-07 19:25:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-08 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-08 00:00:00: [('makha', '09:27 PM', '')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: makha from 2025-04-08 00:00:00 to 2025-04-08 21:27:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-09 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-09 00:00:00: [('pubba', '11:54 PM', '')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: pubba from 2025-04-09 00:00:00 to 2025-04-09 23:54:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-10 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-10 00:00:00: [('uththara', '02:40 AM', 'Apr 11')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: uththara from 2025-04-10 00:00:00 to 2025-04-11 02:40:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-11 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-11 00:00:00: [('hastha', '05:38 AM', 'Apr 12')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: hastha from 2025-04-11 00:00:00 to 2025-04-12 05:38:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-12 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-13 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-13 00:00:00: [('chiththa', '08:41 AM', '')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: chiththa from 2025-04-13 00:00:00 to 2025-04-13 08:41:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-14 00:00:00
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-14 00:00:00: [('swathi', '11:43 AM', '')]
-2025-04-07 13:52:41,645 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: swathi from 2025-04-14 00:00:00 to 2025-04-14 11:43:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-15 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-15 00:00:00: [('visakha', '02:40 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: visakha from 2025-04-15 00:00:00 to 2025-04-15 14:40:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-16 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-16 00:00:00: [('anuradha', '05:25 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: anuradha from 2025-04-16 00:00:00 to 2025-04-16 17:25:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-17 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-17 00:00:00: [('jyestha', '07:51 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: jyestha from 2025-04-17 00:00:00 to 2025-04-17 19:51:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-18 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-18 00:00:00: [('moola', '09:51 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: moola from 2025-04-18 00:00:00 to 2025-04-18 21:51:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-19 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-19 00:00:00: [('poorvashadha', '11:18 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: poorvashadha from 2025-04-19 00:00:00 to 2025-04-19 23:18:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-20 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-20 00:00:00: [('uttharashadha', '12:07 AM', 'Apr 21')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: uttharashadha from 2025-04-20 00:00:00 to 2025-04-21 00:07:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-21 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-21 00:00:00: [('sravanamu', '12:14 AM', 'Apr 22')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: sravanamu from 2025-04-21 00:00:00 to 2025-04-22 00:14:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-22 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-22 00:00:00: [('dhanishta', '11:37 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: dhanishta from 2025-04-22 00:00:00 to 2025-04-22 23:37:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-23 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-23 00:00:00: [('shathabhisha', '10:19 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: shathabhisha from 2025-04-23 00:00:00 to 2025-04-23 22:19:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-24 00:00:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-24 00:00:00: [('poorvabhadra', '08:23 PM', '')]
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: poorvabhadra from 2025-04-24 00:00:00 to 2025-04-24 20:23:00
-2025-04-07 13:52:41,646 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-25 00:00:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-25 00:00:00: [('uttharabhadra', '05:57 PM', '')]
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: uttharabhadra from 2025-04-25 00:00:00 to 2025-04-25 17:57:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-26 00:00:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-26 00:00:00: [('revathi', '03:09 PM', '')]
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: revathi from 2025-04-26 00:00:00 to 2025-04-26 15:09:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-27 00:00:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-27 00:00:00: [('aswini', '12:08 PM', '')]
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: aswini from 2025-04-27 00:00:00 to 2025-04-27 12:08:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-28 00:00:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-28 00:00:00: [('bharani', '09:07 AM', '')]
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: bharani from 2025-04-28 00:00:00 to 2025-04-28 09:07:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-29 00:00:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-29 00:00:00: [('kriththika', '06:17 AM', ''), ('rohini', '03:48 AM', 'Apr 30')]
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: kriththika from 2025-04-29 00:00:00 to 2025-04-29 06:17:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: rohini from 2025-04-29 00:00:00 to 2025-04-30 03:48:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Processing date: 2025-04-30 00:00:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Found nakshatras for 2025-04-30 00:00:00: [('mrigasira', '01:51 AM', 'May 01')]
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Added nakshatra period: mrigasira from 2025-04-30 00:00:00 to 2025-05-01 01:51:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Sorted nakshatra periods: [('kriththika', datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 1, 20, 19)), ('rohini', datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 2, 18, 32)), ('mrigasira', datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 3, 17, 21)), ('arudra', datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 4, 16, 50)), ('punarvasu', datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 5, 17, 2)), ('pushyami', datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 6, 17, 55)), ('ashlesha', datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 7, 19, 25)), ('makha', datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 8, 21, 27)), ('pubba', datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 9, 23, 54)), ('uththara', datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 2, 40)), ('hastha', datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 5, 38)), ('chiththa', datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 13, 8, 41)), ('swathi', datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 14, 11, 43)), ('visakha', datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 15, 14, 40)), ('anuradha', datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 16, 17, 25)), ('jyestha', datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 17, 19, 51)), ('moola', datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 18, 21, 51)), ('poorvashadha', datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 19, 23, 18)), ('uttharashadha', datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 7)), ('sravanamu', datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 14)), ('dhanishta', datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 22, 23, 37)), ('shathabhisha', datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 23, 22, 19)), ('poorvabhadra', datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 24, 20, 23)), ('uttharabhadra', datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 25, 17, 57)), ('revathi', datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 26, 15, 9)), ('aswini', datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 27, 12, 8)), ('bharani', datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 28, 9, 7)), ('kriththika', datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 29, 6, 17)), ('rohini', datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 3, 48)), ('mrigasira', datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 1, 51))]
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: arudra -> punarvasu
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-04 16:50:00 to 2025-04-05 17:02:00
-2025-04-07 13:52:41,647 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 04/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:42,875 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:42,875 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 6:50:51 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,875 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 6:50:51 AM
-2025-04-07 13:52:42,875 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 7:54:21 AM
-2025-04-07 13:52:42,875 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 7:54:21 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,875 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 7:54:21 AM
-2025-04-07 13:52:42,875 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 8:57:51 AM
-2025-04-07 13:52:42,875 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 8:57:51 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 8:57:51 AM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 10:01:22 AM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 10:01:22 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 10:01:22 AM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 11:04:52 AM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 11:04:52 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 11:04:52 AM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 12:08:22 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 12:08:22 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 12:08:22 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 1:11:52 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 1:11:52 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 1:11:52 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 2:15:22 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 2:15:22 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 2:15:22 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 3:18:52 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 3:18:52 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 3:18:52 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 4:22:22 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 4:22:22 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 4:22:22 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 5:25:53 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 5:25:53 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 5:25:53 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 6:29:23 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 6:29:23 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 6:29:23 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 7:32:53 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 7:32:53 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 7:32:53 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 8:36:23 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 8:29:15 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 8:29:15 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 9:25:38 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 9:25:38 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 9:25:38 PM
-2025-04-07 13:52:42,876 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 10:22:00 PM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 10:22:00 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 10:22:00 PM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 03 2025 11:18:23 PM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 03 2025 11:18:23 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 03 2025 11:18:23 PM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 12:14:45 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Fri Apr 04 2025 12:14:45 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Fri Apr 04 2025 12:14:45 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 1:11:08 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Fri Apr 04 2025 1:11:08 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Fri Apr 04 2025 1:11:08 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 2:07:30 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Fri Apr 04 2025 2:07:30 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Fri Apr 04 2025 2:07:30 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 3:03:52 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Fri Apr 04 2025 3:03:52 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Fri Apr 04 2025 3:03:52 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 4:00:15 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Fri Apr 04 2025 4:00:15 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Fri Apr 04 2025 4:00:15 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 4:56:37 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Fri Apr 04 2025 4:56:37 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Fri Apr 04 2025 4:56:37 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 5:53:00 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Fri Apr 04 2025 5:53:00 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - Start time: Fri Apr 04 2025 5:53:00 AM
-2025-04-07 13:52:42,877 - ERROR - icalParser6.py:extract_and_create_events - End time: Fri Apr 04 2025 6:49:22 AM
-2025-04-07 13:52:42,877 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: pushyami -> ashlesha
-2025-04-07 13:52:42,877 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-06 17:55:00 to 2025-04-07 19:25:00
-2025-04-07 13:52:42,877 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 06/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:44,012 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 6:47:54 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 6:47:54 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 7:51:47 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 7:51:47 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 7:51:47 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 8:55:41 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 8:55:41 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 8:55:41 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 9:59:35 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 9:59:35 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 9:59:35 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 11:03:29 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 11:03:29 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 11:03:29 AM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 12:07:23 PM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 12:07:23 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 12:07:23 PM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 1:11:16 PM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 1:11:16 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 1:11:16 PM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 2:15:10 PM
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 2:15:10 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,012 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 2:15:10 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 3:19:04 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 3:19:04 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 3:19:04 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 4:22:58 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 4:22:58 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 4:22:58 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 5:26:52 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 5:26:52 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 5:26:52 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 6:30:45 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 6:30:45 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 6:30:45 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 7:34:39 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 7:34:39 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 7:34:39 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 8:38:33 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 8:30:38 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 8:30:38 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 9:26:37 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 9:26:37 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 9:26:37 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 10:22:36 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 10:22:36 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 10:22:36 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 05 2025 11:18:35 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 05 2025 11:18:35 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 05 2025 11:18:35 PM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 12:14:33 AM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 12:14:33 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 12:14:33 AM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 1:10:32 AM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 1:10:32 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 1:10:32 AM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 2:06:31 AM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 2:06:31 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 2:06:31 AM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 3:02:30 AM
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 3:02:30 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,013 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 3:02:30 AM
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 3:58:29 AM
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 3:58:29 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 3:58:29 AM
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 4:54:28 AM
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 4:54:28 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 4:54:28 AM
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 5:50:27 AM
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 5:50:27 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 5:50:27 AM
-2025-04-07 13:52:44,014 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 6:46:26 AM
-2025-04-07 13:52:44,014 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: ashlesha -> makha
-2025-04-07 13:52:44,014 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-07 19:25:00 to 2025-04-08 21:27:00
-2025-04-07 13:52:44,014 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 07/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:45,155 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 6:46:26 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 6:46:26 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 7:50:31 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 7:50:31 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 7:50:31 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 8:54:37 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 8:54:37 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 8:54:37 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 9:58:42 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 9:58:42 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 9:58:42 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 11:02:48 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 11:02:48 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 11:02:48 AM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 12:06:53 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 12:06:53 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 12:06:53 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 1:10:59 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 1:10:59 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 1:10:59 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 2:15:05 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 2:15:05 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 2:15:05 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 3:19:10 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 3:19:10 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 3:19:10 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 4:23:16 PM
-2025-04-07 13:52:45,155 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 4:23:16 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 4:23:16 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 5:27:21 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 5:27:21 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 5:27:21 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 6:31:27 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 6:31:27 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 6:31:27 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 7:35:32 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 7:35:32 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 7:35:32 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 8:39:38 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 8:31:20 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 8:31:20 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 9:27:07 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 9:27:07 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 9:27:07 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 10:22:54 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 10:22:54 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 10:22:54 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 06 2025 11:18:41 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 06 2025 11:18:41 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 06 2025 11:18:41 PM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 12:14:28 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 12:14:28 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 12:14:28 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 1:10:15 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 1:10:15 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 1:10:15 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 2:06:02 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 2:06:02 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 2:06:02 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 3:01:49 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 3:01:49 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 3:01:49 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 3:57:37 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 3:57:37 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 3:57:37 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 4:53:24 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 4:53:24 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 4:53:24 AM
-2025-04-07 13:52:45,156 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 5:49:11 AM
-2025-04-07 13:52:45,157 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 5:49:11 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:45,157 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 5:49:11 AM
-2025-04-07 13:52:45,157 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 6:44:58 AM
-2025-04-07 13:52:45,157 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: makha -> pubba
-2025-04-07 13:52:45,157 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-08 21:27:00 to 2025-04-09 23:54:00
-2025-04-07 13:52:45,157 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 08/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:46,037 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:46,037 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 6:44:58 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,037 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 6:44:58 AM
-2025-04-07 13:52:46,037 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 7:49:15 AM
-2025-04-07 13:52:46,037 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 7:49:15 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,037 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 7:49:15 AM
-2025-04-07 13:52:46,037 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 8:53:33 AM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 8:53:33 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 8:53:33 AM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 9:57:50 AM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 9:57:50 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 9:57:50 AM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 11:02:07 AM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 11:02:07 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 11:02:07 AM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 12:06:24 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 12:06:24 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 12:06:24 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 1:10:42 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 1:10:42 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 1:10:42 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 2:14:59 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 2:14:59 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 2:14:59 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 3:19:16 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 3:19:16 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 3:19:16 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 4:23:34 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 4:23:34 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 4:23:34 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 5:27:51 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 5:27:51 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 5:27:51 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 6:32:08 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 6:32:08 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 6:32:08 PM
-2025-04-07 13:52:46,038 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 7:36:26 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 7:36:26 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 7:36:26 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 8:40:43 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 8:32:01 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 8:32:01 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 9:27:37 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 9:27:37 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 9:27:37 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 10:23:12 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 10:23:12 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 10:23:12 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 07 2025 11:18:47 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 07 2025 11:18:47 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 07 2025 11:18:47 PM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 12:14:23 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 12:14:23 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 12:14:23 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 1:09:58 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 1:09:58 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 1:09:58 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 2:05:34 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 2:05:34 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 2:05:34 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 3:01:09 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 3:01:09 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 3:01:09 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 3:56:45 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 3:56:45 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 3:56:45 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 4:52:20 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 4:52:20 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 4:52:20 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 5:47:55 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 5:47:55 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 5:47:55 AM
-2025-04-07 13:52:46,039 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 6:43:31 AM
-2025-04-07 13:52:46,039 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: pubba -> uththara
-2025-04-07 13:52:46,039 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-09 23:54:00 to 2025-04-11 02:40:00
-2025-04-07 13:52:46,039 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 09/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:47,130 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:47,131 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 6:43:31 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,131 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 6:43:31 AM
-2025-04-07 13:52:47,131 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 7:48:00 AM
-2025-04-07 13:52:47,131 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 7:48:00 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,131 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 7:48:00 AM
-2025-04-07 13:52:47,131 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 8:52:29 AM
-2025-04-07 13:52:47,131 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 8:52:29 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 8:52:29 AM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 9:56:58 AM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 9:56:58 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 9:56:58 AM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 11:01:27 AM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 11:01:27 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 11:01:27 AM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 12:05:56 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 12:05:56 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 12:05:56 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 1:10:25 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 1:10:25 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 1:10:25 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 2:14:54 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 2:14:54 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 2:14:54 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 3:19:23 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 3:19:23 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 3:19:23 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 4:23:52 PM
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 4:23:52 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,132 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 4:23:52 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 5:28:21 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 5:28:21 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 5:28:21 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 6:32:50 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 6:32:50 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 6:32:50 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 7:37:19 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 7:37:19 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 7:37:19 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 8:41:48 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 8:32:43 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 8:32:43 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 9:28:07 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 9:28:07 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 9:28:07 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 10:23:30 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 10:23:30 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 10:23:30 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 08 2025 11:18:54 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 08 2025 11:18:54 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 08 2025 11:18:54 PM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 12:14:18 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 09 2025 12:14:18 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 09 2025 12:14:18 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 1:09:42 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 09 2025 1:09:42 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 09 2025 1:09:42 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 2:05:05 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 09 2025 2:05:05 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 09 2025 2:05:05 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 3:00:29 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 09 2025 3:00:29 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 09 2025 3:00:29 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 3:55:53 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 09 2025 3:55:53 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 09 2025 3:55:53 AM
-2025-04-07 13:52:47,133 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 4:51:17 AM
-2025-04-07 13:52:47,134 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 09 2025 4:51:17 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,134 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 09 2025 4:51:17 AM
-2025-04-07 13:52:47,134 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 5:46:40 AM
-2025-04-07 13:52:47,134 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 09 2025 5:46:40 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:47,134 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 09 2025 5:46:40 AM
-2025-04-07 13:52:47,134 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 09 2025 6:42:04 AM
-2025-04-07 13:52:47,134 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: swathi -> visakha
-2025-04-07 13:52:47,134 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-14 11:43:00 to 2025-04-15 14:40:00
-2025-04-07 13:52:47,134 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 14/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:49,353 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:49,353 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 6:36:23 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,353 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 6:36:23 AM
-2025-04-07 13:52:49,353 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 7:41:50 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 7:41:50 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 7:41:50 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 8:47:17 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 8:47:17 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 8:47:17 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 9:52:44 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 9:52:44 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 9:52:44 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 10:58:11 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 10:58:11 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 10:58:11 AM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 12:03:38 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 12:03:38 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 12:03:38 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 1:09:05 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 1:09:05 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 1:09:05 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 2:14:32 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 2:14:32 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 2:14:32 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 3:19:59 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 3:19:59 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 3:19:59 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 4:25:26 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 4:25:26 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 4:25:26 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 5:30:53 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 5:30:53 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 5:30:53 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 6:36:20 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 6:36:20 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 6:36:20 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 7:41:47 PM
-2025-04-07 13:52:49,354 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 7:41:47 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 7:41:47 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 8:47:14 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 8:36:13 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 8:36:13 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 9:30:39 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 9:30:39 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 9:30:39 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 10:25:05 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 10:25:05 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 10:25:05 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 13 2025 11:19:31 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 13 2025 11:19:31 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 13 2025 11:19:31 PM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 12:13:58 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 14 2025 12:13:58 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 14 2025 12:13:58 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 1:08:24 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 14 2025 1:08:24 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 14 2025 1:08:24 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 2:02:50 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 14 2025 2:02:50 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 14 2025 2:02:50 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 2:57:16 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 14 2025 2:57:16 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 14 2025 2:57:16 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 3:51:42 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 14 2025 3:51:42 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 14 2025 3:51:42 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 4:46:08 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 14 2025 4:46:08 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 14 2025 4:46:08 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 5:40:34 AM
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Mon Apr 14 2025 5:40:34 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:49,355 - ERROR - icalParser6.py:extract_and_create_events - Start time: Mon Apr 14 2025 5:40:34 AM
-2025-04-07 13:52:49,356 - ERROR - icalParser6.py:extract_and_create_events - End time: Mon Apr 14 2025 6:35:00 AM
-2025-04-07 13:52:49,356 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: jyestha -> moola
-2025-04-07 13:52:49,356 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-17 19:51:00 to 2025-04-18 21:51:00
-2025-04-07 13:52:49,356 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 17/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:50,478 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 6:32:15 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 6:32:15 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 7:38:16 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 7:38:16 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 7:38:16 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 8:44:17 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 8:44:17 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 8:44:17 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 9:50:19 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 9:50:19 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 9:50:19 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 10:56:20 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 10:56:20 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 10:56:20 AM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 12:02:21 PM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 12:02:21 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 12:02:21 PM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 1:08:22 PM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 1:08:22 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 1:08:22 PM
-2025-04-07 13:52:50,478 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 2:14:23 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 2:14:23 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 2:14:23 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 3:20:25 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 3:20:25 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 3:20:25 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 4:26:26 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 4:26:26 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 4:26:26 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 5:32:27 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 5:32:27 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 5:32:27 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 6:38:28 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 6:38:28 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 6:38:28 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 7:44:29 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 7:44:29 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 7:44:29 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 8:50:31 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 8:38:21 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 8:38:21 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 9:32:13 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 9:32:13 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 9:32:13 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 10:26:05 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 10:26:05 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 10:26:05 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 16 2025 11:19:57 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 16 2025 11:19:57 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 16 2025 11:19:57 PM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 12:13:49 AM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 17 2025 12:13:49 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 17 2025 12:13:49 AM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 1:07:41 AM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 17 2025 1:07:41 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 17 2025 1:07:41 AM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 2:01:33 AM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 17 2025 2:01:33 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 17 2025 2:01:33 AM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 2:55:26 AM
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 17 2025 2:55:26 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,479 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 17 2025 2:55:26 AM
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 3:49:18 AM
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 17 2025 3:49:18 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 17 2025 3:49:18 AM
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 4:43:10 AM
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 17 2025 4:43:10 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 17 2025 4:43:10 AM
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 5:37:02 AM
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Thu Apr 17 2025 5:37:02 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - Start time: Thu Apr 17 2025 5:37:02 AM
-2025-04-07 13:52:50,480 - ERROR - icalParser6.py:extract_and_create_events - End time: Thu Apr 17 2025 6:30:54 AM
-2025-04-07 13:52:50,480 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: shathabhisha -> poorvabhadra
-2025-04-07 13:52:50,480 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-23 22:19:00 to 2025-04-24 20:23:00
-2025-04-07 13:52:50,480 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 23/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:51,605 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 6:24:19 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 6:24:19 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 7:31:27 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 7:31:27 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 7:31:27 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 8:38:35 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 8:38:35 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 8:38:35 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 9:45:43 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 9:45:43 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 9:45:43 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 10:52:52 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 10:52:52 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 10:52:52 AM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 12:00:00 PM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 12:00:00 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 12:00:00 PM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 1:07:08 PM
-2025-04-07 13:52:51,605 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 1:07:08 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 1:07:08 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 2:14:16 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 2:14:16 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 2:14:16 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 3:21:24 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 3:21:24 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 3:21:24 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 4:28:32 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 4:28:32 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 4:28:32 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 5:35:40 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 5:35:40 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 5:35:40 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 6:42:48 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 6:42:48 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 6:42:48 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 7:49:56 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 7:49:56 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 7:49:56 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 8:57:04 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 8:42:42 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 8:42:42 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 9:35:27 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 9:35:27 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 9:35:27 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 10:28:13 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 10:28:13 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 10:28:13 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Tue Apr 22 2025 11:20:58 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Tue Apr 22 2025 11:20:58 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Tue Apr 22 2025 11:20:58 PM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 12:13:44 AM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 23 2025 12:13:44 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 23 2025 12:13:44 AM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 1:06:30 AM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 23 2025 1:06:30 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 23 2025 1:06:30 AM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 1:59:15 AM
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 23 2025 1:59:15 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,606 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 23 2025 1:59:15 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 2:52:01 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 23 2025 2:52:01 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 23 2025 2:52:01 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 3:44:46 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 23 2025 3:44:46 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 23 2025 3:44:46 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 4:37:32 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 23 2025 4:37:32 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 23 2025 4:37:32 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 5:30:17 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Wed Apr 23 2025 5:30:17 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - Start time: Wed Apr 23 2025 5:30:17 AM
-2025-04-07 13:52:51,607 - ERROR - icalParser6.py:extract_and_create_events - End time: Wed Apr 23 2025 6:23:03 AM
-2025-04-07 13:52:51,607 - INFO - icalParser6.py:extract_and_create_events - Found special nakshatra transition: aswini -> bharani
-2025-04-07 13:52:51,607 - INFO - icalParser6.py:extract_and_create_events - Calculating hora events from 2025-04-27 12:08:00 to 2025-04-28 09:07:00
-2025-04-07 13:52:51,607 - INFO - icalParser6.py:extract_and_create_events - API parameters - date: 27/04/2025, lat: 37.33939, lon: -121.89496
-2025-04-07 13:52:52,067 - INFO - icalParser6.py:extract_and_create_events - Received 24 hora events from API
-2025-04-07 13:52:52,067 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 6:19:20 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 6:19:20 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 7:27:12 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 7:27:12 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 7:27:12 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 8:35:03 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 8:35:03 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 8:35:03 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 9:42:54 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 9:42:54 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 9:42:54 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 10:50:45 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 10:50:45 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 10:50:45 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 11:58:37 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 11:58:37 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 11:58:37 AM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 1:06:28 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 1:06:28 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 1:06:28 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 2:14:19 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 2:14:19 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 2:14:19 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 3:22:10 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 3:22:10 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 3:22:10 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 4:30:02 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 4:30:02 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 4:30:02 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 5:37:53 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 5:37:53 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 5:37:53 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 6:45:44 PM
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 6:45:44 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,068 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 6:45:44 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 7:53:36 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 7:53:36 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 7:53:36 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 9:01:27 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 8:45:38 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 8:45:38 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 9:37:41 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 9:37:41 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 9:37:41 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 10:29:44 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 10:29:44 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 10:29:44 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sat Apr 26 2025 11:21:46 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sat Apr 26 2025 11:21:46 PM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sat Apr 26 2025 11:21:46 PM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 12:13:49 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 27 2025 12:13:49 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 27 2025 12:13:49 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 1:05:52 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 27 2025 1:05:52 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 27 2025 1:05:52 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 1:57:55 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 27 2025 1:57:55 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 27 2025 1:57:55 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 2:49:57 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 27 2025 2:49:57 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 27 2025 2:49:57 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 3:42:00 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 27 2025 3:42:00 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 27 2025 3:42:00 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 4:34:03 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 27 2025 4:34:03 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 27 2025 4:34:03 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 5:26:05 AM
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Error parsing datetime for hora event: time data 'Sun Apr 27 2025 5:26:05 AM' does not match format '%Y-%m-%d %I:%M %p'
-2025-04-07 13:52:52,069 - ERROR - icalParser6.py:extract_and_create_events - Start time: Sun Apr 27 2025 5:26:05 AM
-2025-04-07 13:52:52,070 - ERROR - icalParser6.py:extract_and_create_events - End time: Sun Apr 27 2025 6:18:08 AM
-2025-04-07 13:52:52,070 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-01 00:00:00
-2025-04-07 13:52:52,071 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-01 09:24:00 to 2025-04-01 10:15:00
-2025-04-07 13:52:52,071 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:24 AM to 10:15 AM
-2025-04-07 13:52:52,071 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-01 00:03:00 to 2025-04-01 00:48:00
-2025-04-07 13:52:52,071 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:03 AM to 12:48 AM
-2025-04-07 13:52:52,071 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-01 09:28:00 to 2025-04-01 10:55:00
-2025-04-07 13:52:52,071 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 09:28 AM to 10:55 AM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-02 00:00:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-02 12:46:00 to 2025-04-02 13:37:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:46 PM to 01:37 PM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-02 11:08:00 to 2025-04-02 12:37:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 11:08 AM to 12:37 PM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-02 23:51:00 to 2025-04-03 01:23:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 11:51 PM to 01:23 AM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-03 00:00:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-03 11:04:00 to 2025-04-03 11:55:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 11:04 AM to 11:55 AM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-03 16:09:00 to 2025-04-03 17:00:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:09 PM to 05:00 PM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-03 01:34:00 to 2025-04-03 03:08:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 01:34 AM to 03:08 AM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-04 00:00:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-04 09:21:00 to 2025-04-04 10:12:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:21 AM to 10:12 AM
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-04 13:36:00 to 2025-04-04 14:27:00
-2025-04-07 13:52:52,072 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:36 PM to 02:27 PM
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-04 04:56:00 to 2025-04-04 06:33:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 04:56 AM to 06:33 AM
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-05 00:00:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-05 06:47:00 to 2025-04-05 07:38:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 06:47 AM to 07:38 AM
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-05 07:38:00 to 2025-04-05 08:29:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 07:38 AM to 08:29 AM
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-05 01:19:00 to 2025-04-05 02:59:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 01:19 AM to 02:59 AM
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-06 00:00:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-06 17:53:00 to 2025-04-06 18:44:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 05:53 PM to 06:44 PM
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-07 00:00:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-07 13:36:00 to 2025-04-07 14:27:00
-2025-04-07 13:52:52,073 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:36 PM to 02:27 PM
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-07 16:10:00 to 2025-04-07 17:02:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:10 PM to 05:02 PM
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-07 07:31:00 to 2025-04-07 09:13:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 07:31 AM to 09:13 AM
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-08 00:00:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-08 09:17:00 to 2025-04-08 10:09:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:17 AM to 10:09 AM
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-08 00:03:00 to 2025-04-08 00:47:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:03 AM to 12:47 AM
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-08 08:26:00 to 2025-04-08 10:10:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 08:26 AM to 10:10 AM
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-08 06:16:00 to 2025-04-08 08:02:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 06:16 AM to 08:02 AM
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-09 00:00:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-09 12:43:00 to 2025-04-09 13:35:00
-2025-04-07 13:52:52,074 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:43 PM to 01:35 PM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-10 00:00:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-10 10:59:00 to 2025-04-10 11:51:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 10:59 AM to 11:51 AM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-10 16:11:00 to 2025-04-10 17:03:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:11 PM to 05:03 PM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-10 07:56:00 to 2025-04-10 09:43:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 07:56 AM to 09:43 AM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-11 00:00:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-11 09:14:00 to 2025-04-11 10:06:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:14 AM to 10:06 AM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-11 13:35:00 to 2025-04-11 14:27:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:35 PM to 02:27 PM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-11 12:06:00 to 2025-04-11 13:54:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 12:06 PM to 01:54 PM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-12 00:00:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-12 06:37:00 to 2025-04-12 07:29:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 06:37 AM to 07:29 AM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-12 07:29:00 to 2025-04-12 08:21:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 07:29 AM to 08:21 AM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-12 14:39:00 to 2025-04-12 16:27:00
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 02:39 PM to 04:27 PM
-2025-04-07 13:52:52,075 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-13 00:00:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-13 17:57:00 to 2025-04-13 18:49:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 05:57 PM to 06:49 PM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-13 14:59:00 to 2025-04-13 16:48:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 02:59 PM to 04:48 PM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-14 00:00:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-14 13:34:00 to 2025-04-14 14:27:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:34 PM to 02:27 PM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-14 16:12:00 to 2025-04-14 17:05:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:12 PM to 05:05 PM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-14 18:01:00 to 2025-04-14 19:49:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 06:01 PM to 07:49 PM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-15 00:00:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-15 09:11:00 to 2025-04-15 10:03:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:11 AM to 10:03 AM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-15 00:02:00 to 2025-04-15 00:46:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:02 AM to 12:46 AM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-15 19:08:00 to 2025-04-15 20:55:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 07:08 PM to 08:55 PM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-16 00:00:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-16 12:41:00 to 2025-04-16 13:34:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:41 PM to 01:34 PM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-16 23:35:00 to 2025-04-17 01:21:00
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 11:35 PM to 01:21 AM
-2025-04-07 13:52:52,076 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-17 00:00:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-17 10:55:00 to 2025-04-17 11:48:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 10:55 AM to 11:48 AM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-17 16:13:00 to 2025-04-17 17:06:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:13 PM to 05:06 PM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-17 04:31:00 to 2025-04-17 06:15:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 04:31 AM to 06:15 AM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-18 00:00:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-18 09:08:00 to 2025-04-18 10:01:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:08 AM to 10:01 AM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-18 13:34:00 to 2025-04-18 14:27:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:34 PM to 02:27 PM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-18 20:07:00 to 2025-04-18 21:51:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 08:07 PM to 09:51 PM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-19 00:00:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-19 06:27:00 to 2025-04-19 07:20:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 06:27 AM to 07:20 AM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-19 07:20:00 to 2025-04-19 08:14:00
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 07:20 AM to 08:14 AM
-2025-04-07 13:52:52,077 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-19 08:02:00 to 2025-04-19 09:43:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 08:02 AM to 09:43 AM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-20 00:00:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-20 18:01:00 to 2025-04-20 18:54:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 06:01 PM to 06:54 PM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-20 07:34:00 to 2025-04-20 09:14:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 07:34 AM to 09:14 AM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-20 04:08:00 to 2025-04-20 05:45:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 04:08 AM to 05:45 AM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-21 00:00:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-21 13:33:00 to 2025-04-21 14:27:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:33 PM to 02:27 PM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-21 16:14:00 to 2025-04-21 17:08:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:14 PM to 05:08 PM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-21 04:08:00 to 2025-04-21 05:41:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 04:08 AM to 05:41 AM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-22 00:00:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-22 09:04:00 to 2025-04-22 09:58:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:04 AM to 09:58 AM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-22 00:02:00 to 2025-04-22 00:45:00
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:02 AM to 12:45 AM
-2025-04-07 13:52:52,078 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-23 00:00:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-23 12:39:00 to 2025-04-23 13:33:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:39 PM to 01:33 PM
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-23 06:26:00 to 2025-04-23 07:57:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 06:26 AM to 07:57 AM
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-23 04:12:00 to 2025-04-23 05:41:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 04:12 AM to 05:41 AM
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-24 00:00:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-24 10:51:00 to 2025-04-24 11:45:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 10:51 AM to 11:45 AM
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-24 16:15:00 to 2025-04-24 17:09:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:15 PM to 05:09 PM
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-24 05:01:00 to 2025-04-24 06:27:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 05:01 AM to 06:27 AM
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-25 00:00:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-25 09:02:00 to 2025-04-25 09:56:00
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 09:02 AM to 09:56 AM
-2025-04-07 13:52:52,079 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-25 13:33:00 to 2025-04-25 14:27:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:33 PM to 02:27 PM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-25 04:33:00 to 2025-04-25 05:58:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 04:33 AM to 05:58 AM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-26 00:00:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-26 06:18:00 to 2025-04-26 07:12:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 06:18 AM to 07:12 AM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-26 07:12:00 to 2025-04-26 08:07:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 07:12 AM to 08:07 AM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-27 00:00:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-27 18:05:00 to 2025-04-27 19:00:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 06:05 PM to 07:00 PM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-27 08:38:00 to 2025-04-27 10:02:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 08:38 AM to 10:02 AM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-27 20:32:00 to 2025-04-27 21:56:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 08:32 PM to 09:56 PM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-28 00:00:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-28 13:33:00 to 2025-04-28 14:27:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 01:33 PM to 02:27 PM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-28 16:17:00 to 2025-04-28 17:11:00
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 04:17 PM to 05:11 PM
-2025-04-07 13:52:52,080 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-28 19:42:00 to 2025-04-28 21:07:00
-2025-04-07 13:52:52,081 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 07:42 PM to 09:07 PM
-2025-04-07 13:52:52,081 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-29 00:00:00
-2025-04-07 13:52:52,081 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-29 08:59:00 to 2025-04-29 09:54:00
-2025-04-07 13:52:52,081 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 08:59 AM to 09:54 AM
-2025-04-07 13:52:52,081 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-29 00:03:00 to 2025-04-29 00:44:00
-2025-04-07 13:52:52,081 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:03 AM to 12:44 AM
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-29 20:37:00 to 2025-04-29 22:03:00
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 08:37 PM to 10:03 PM
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:extract_and_create_events - Processing regular events for date: 2025-04-30 00:00:00
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:create_ics_event - Created event: DUS from 2025-04-30 12:38:00 to 2025-04-30 13:33:00
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:extract_and_create_events - Created Dur Muhurtamulu event: 12:38 PM to 01:33 PM
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:create_ics_event - Created event: VAR from 2025-04-30 08:56:00 to 2025-04-30 10:25:00
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:extract_and_create_events - Created Varjyam event: 08:56 AM to 10:25 AM
-2025-04-07 13:52:52,085 - INFO - icalParser6.py:extract_and_create_events - Completed processing all events
-2025-04-07 13:52:52,086 - INFO - icalParser6.py:extract_and_create_events - Created 83 regular events and 1 hora events
+2025-07-03 12:50:13,795 - INFO - icalParser6.py:<module> - Loaded special nakshatras: ['ashlesha', 'jyeshtha', 'revati', 'ashwini', 'aswini', 'makha', 'moola', 'punarvasu', 'visakha', 'purvabhadrapada', 'kritika', 'kriththika', 'uttara', 'uttarashada', 'uttharashadha', 'mrigashira', 'mrigasira', 'chitta', 'dhanishtha', 'pubba', 'magha', 'uttara', 'uththara', 'chitta', 'visakha', 'jyeshtha', 'mula', 'uttarashada', 'poorvabhadra', 'revati', 'ashwini', 'bharani']
+2025-07-03 12:50:13,836 - DEBUG - icalParser6.py:extract_and_create_events - Starting extract_and_create_events with 30 events from 2025-03-31 00:00:00 to 2025-05-02 00:00:00
+2025-07-03 12:50:13,836 - DEBUG - icalParser6.py:extract_and_create_events - Initialized regular and hora calendars
+2025-07-03 12:50:13,836 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 01/09/2025
+2025-07-03 12:50:13,836 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 01/09/2025
+2025-07-03 12:50:13,837 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Jyestha', '07:25 AM', '')]
+2025-07-03 12:50:13,837 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: jyestha, time: 07:25 AM, date: 
+2025-07-03 12:50:13,837 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 01/09/2025
+2025-07-03 12:50:13,837 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra jyestha ending at 07:25 for 01/09/2025
+2025-07-03 12:50:13,838 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:33 PM to 02:25 PM for 01/09/2025
+2025-07-03 12:50:13,838 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 04:09 PM to 05:00 PM for 01/09/2025
+2025-07-03 12:50:13,839 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 04:04 PM to 05:47 PM for 01/09/2025
+2025-07-03 12:50:13,839 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 02/09/2025
+2025-07-03 12:50:13,839 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 02/09/2025
+2025-07-03 12:50:13,839 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Moola', '09:21 AM', '')]
+2025-07-03 12:50:13,839 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: moola, time: 09:21 AM, date: 
+2025-07-03 12:50:13,839 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: moola
+2025-07-03 12:50:13,839 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 02/09/2025
+2025-07-03 12:50:13,840 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra moola ending at 09:21 for 02/09/2025
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:14 AM to 10:06 AM for 02/09/2025
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 12:01 AM to 12:45 AM for 02/09/2025
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 07:37 AM to 09:21 AM for 02/09/2025
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 07:28 PM to 09:09 PM for 02/09/2025
+2025-07-03 12:50:13,840 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 03/09/2025
+2025-07-03 12:50:13,840 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 03/09/2025
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Poorvashadha', '10:38 AM', '')]
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: poorvashadha, time: 10:38 AM, date: 
+2025-07-03 12:50:13,840 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 03/09/2025
+2025-07-03 12:50:13,840 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra poorvashadha ending at 10:38 for 03/09/2025
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 12:41 PM to 01:32 PM for 03/09/2025
+2025-07-03 12:50:13,840 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 06:50 PM to 08:28 PM for 03/09/2025
+2025-07-03 12:50:13,840 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 04/09/2025
+2025-07-03 12:50:13,840 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 04/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Uttharashadha', '11:14 AM', '')]
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: uttharashadha, time: 11:14 AM, date: 
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: uttharashadha
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 04/09/2025
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra uttharashadha ending at 11:14 for 04/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 10:58 AM to 11:49 AM for 04/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 04:06 PM to 04:57 PM for 04/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 03:13 PM to 04:48 PM for 04/09/2025
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 05/09/2025
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 05/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Sravanamu', '11:08 AM', '')]
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: sravanamu, time: 11:08 AM, date: 
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 05/09/2025
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra sravanamu ending at 11:08 for 05/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:15 AM to 10:07 AM for 05/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:32 PM to 02:23 PM for 05/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 03:01 PM to 04:34 PM for 05/09/2025
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 06/09/2025
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 06/09/2025
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Dhanishta', '10:25 AM', '')]
+2025-07-03 12:50:13,841 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: dhanishta, time: 10:25 AM, date: 
+2025-07-03 12:50:13,841 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 06/09/2025
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra dhanishta ending at 10:25 for 06/09/2025
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 06:43 AM to 07:34 AM for 06/09/2025
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 07:34 AM to 08:25 AM for 06/09/2025
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 05:15 PM to 06:46 PM for 06/09/2025
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 07/09/2025
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 07/09/2025
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Shathabhisha', '09:11 AM', '')]
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: shathabhisha, time: 09:11 AM, date: 
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 07/09/2025
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra shathabhisha ending at 09:11 for 07/09/2025
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 05:45 PM to 06:36 PM for 07/09/2025
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 03:09 PM to 04:38 PM for 07/09/2025
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 08/09/2025
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 08/09/2025
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Poorvabhadra', '07:32 AM', '')]
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: poorvabhadra, time: 07:32 AM, date: 
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: poorvabhadra
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Uttharabhadra', '05:37 AM', 'Sep 09')]
+2025-07-03 12:50:13,842 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: uttharabhadra, time: 05:37 AM, date: Sep 09
+2025-07-03 12:50:13,842 - DEBUG - icalParser6.py:extract_and_create_events - Found 2 nakshatras in description for 08/09/2025
+2025-07-03 12:50:13,843 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra poorvabhadra ending at 07:32 for 08/09/2025
+2025-07-03 12:50:13,843 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra uttharabhadra ending at 05:37 for 08/09/2025
+2025-07-03 12:50:13,843 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:30 PM to 02:21 PM for 08/09/2025
+2025-07-03 12:50:13,843 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 04:02 PM to 04:53 PM for 08/09/2025
+2025-07-03 12:50:13,843 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 04:22 PM to 05:50 PM for 08/09/2025
+2025-07-03 12:50:13,843 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 09/09/2025
+2025-07-03 12:50:13,843 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 09/09/2025
+2025-07-03 12:50:13,843 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Revathi', '03:33 AM', 'Sep 10')]
+2025-07-03 12:50:13,843 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: revathi, time: 03:33 AM, date: Sep 10
+2025-07-03 12:50:13,844 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 09/09/2025
+2025-07-03 12:50:13,844 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra revathi ending at 03:33 for 09/09/2025
+2025-07-03 12:50:13,844 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:17 AM to 10:07 AM for 09/09/2025
+2025-07-03 12:50:13,844 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 11:57 PM to 12:42 AM for 09/09/2025
+2025-07-03 12:50:13,844 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 04:35 PM to 06:03 PM for 09/09/2025
+2025-07-03 12:50:13,844 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 10/09/2025
+2025-07-03 12:50:13,844 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 10/09/2025
+2025-07-03 12:50:13,844 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Aswini', '01:28 AM', 'Sep 11')]
+2025-07-03 12:50:13,844 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: aswini, time: 01:28 AM, date: Sep 11
+2025-07-03 12:50:13,844 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: aswini
+2025-07-03 12:50:13,844 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 10/09/2025
+2025-07-03 12:50:13,844 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra aswini ending at 01:28 for 10/09/2025
+2025-07-03 12:50:13,844 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 12:39 PM to 01:29 PM for 10/09/2025
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 09:48 PM to 11:16 PM for 10/09/2025
+2025-07-03 12:50:13,845 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 11/09/2025
+2025-07-03 12:50:13,845 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 11/09/2025
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Bharani', '11:28 PM', '')]
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: bharani, time: 11:28 PM, date: 
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: bharani
+2025-07-03 12:50:13,845 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 11/09/2025
+2025-07-03 12:50:13,845 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra bharani ending at 23:28 for 11/09/2025
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 10:58 AM to 11:48 AM for 11/09/2025
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 04:00 PM to 04:50 PM for 11/09/2025
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 10:16 AM to 11:44 AM for 11/09/2025
+2025-07-03 12:50:13,845 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 12/09/2025
+2025-07-03 12:50:13,845 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 12/09/2025
+2025-07-03 12:50:13,845 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Kriththika', '09:41 PM', '')]
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: kriththika, time: 09:41 PM, date: 
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: kriththika
+2025-07-03 12:50:13,846 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 12/09/2025
+2025-07-03 12:50:13,846 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra kriththika ending at 21:41 for 12/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:18 AM to 10:08 AM for 12/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:29 PM to 02:19 PM for 12/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 10:35 AM to 12:04 PM for 12/09/2025
+2025-07-03 12:50:13,846 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 13/09/2025
+2025-07-03 12:50:13,846 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 13/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Rohini', '08:11 PM', '')]
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: rohini, time: 08:11 PM, date: 
+2025-07-03 12:50:13,846 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 13/09/2025
+2025-07-03 12:50:13,846 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra rohini ending at 20:11 for 13/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 06:48 AM to 07:38 AM for 13/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 07:38 AM to 08:28 AM for 13/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 12:41 PM to 02:11 PM for 13/09/2025
+2025-07-03 12:50:13,846 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 01:31 AM to 03:02 AM for 13/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 14/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 14/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Mrigasira', '07:01 PM', '')]
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: mrigasira, time: 07:01 PM, date: 
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: mrigasira
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 14/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra mrigasira ending at 19:01 for 14/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 05:37 PM to 06:26 PM for 14/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 03:09 AM to 04:42 AM for 14/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 15/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 15/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Arudra', '06:16 PM', '')]
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: arudra, time: 06:16 PM, date: 
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 15/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra arudra ending at 18:16 for 15/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:27 PM to 02:17 PM for 15/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 03:56 PM to 04:46 PM for 15/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 06:06 AM to 07:40 AM for 15/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 16/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 16/09/2025
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Punarvasu', '05:56 PM', '')]
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: punarvasu, time: 05:56 PM, date: 
+2025-07-03 12:50:13,847 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: punarvasu
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 16/09/2025
+2025-07-03 12:50:13,847 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra punarvasu ending at 17:56 for 16/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:19 AM to 10:09 AM for 16/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 11:53 PM to 12:39 AM for 16/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 01:58 AM to 03:34 AM for 16/09/2025
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 17/09/2025
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 17/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Pushyami', '06:02 PM', '')]
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: pushyami, time: 06:02 PM, date: 
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 17/09/2025
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra pushyami ending at 18:02 for 17/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 12:37 PM to 01:26 PM for 17/09/2025
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 18/09/2025
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 18/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Ashlesha', '06:35 PM', '')]
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: ashlesha, time: 06:35 PM, date: 
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: ashlesha
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 18/09/2025
+2025-07-03 12:50:13,848 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra ashlesha ending at 18:35 for 18/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 10:58 AM to 11:48 AM for 18/09/2025
+2025-07-03 12:50:13,848 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 03:53 PM to 04:43 PM for 18/09/2025
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 07:08 AM to 08:46 AM for 18/09/2025
+2025-07-03 12:50:13,849 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 19/09/2025
+2025-07-03 12:50:13,849 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 19/09/2025
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Makha', '07:35 PM', '')]
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: makha, time: 07:35 PM, date: 
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: makha
+2025-07-03 12:50:13,849 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 19/09/2025
+2025-07-03 12:50:13,849 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra makha ending at 19:35 for 19/09/2025
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:20 AM to 10:09 AM for 19/09/2025
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:25 PM to 02:15 PM for 19/09/2025
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 07:05 AM to 08:45 AM for 19/09/2025
+2025-07-03 12:50:13,849 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 04:04 AM to 05:46 AM for 19/09/2025
+2025-07-03 12:50:13,849 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 20/09/2025
+2025-07-03 12:50:13,849 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 20/09/2025
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Pubba', '09:02 PM', '')]
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: pubba, time: 09:02 PM, date: 
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: pubba
+2025-07-03 12:50:13,850 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 20/09/2025
+2025-07-03 12:50:13,850 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra pubba ending at 21:02 for 20/09/2025
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 06:54 AM to 07:43 AM for 20/09/2025
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 07:43 AM to 08:32 AM for 20/09/2025
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 04:47 AM to 06:31 AM for 20/09/2025
+2025-07-03 12:50:13,850 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 21/09/2025
+2025-07-03 12:50:13,850 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 21/09/2025
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Uththara', '10:54 PM', '')]
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: uththara, time: 10:54 PM, date: 
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: uththara
+2025-07-03 12:50:13,850 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 21/09/2025
+2025-07-03 12:50:13,850 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra uththara ending at 22:54 for 21/09/2025
+2025-07-03 12:50:13,850 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 05:28 PM to 06:17 PM for 21/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 22/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 22/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Hastha', '01:10 AM', 'Sep 23')]
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: hastha, time: 01:10 AM, date: Sep 23
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 22/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra hastha ending at 01:10 for 22/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:24 PM to 02:13 PM for 22/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 03:50 PM to 04:38 PM for 22/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 08:05 AM to 09:51 AM for 22/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 23/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 23/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Chiththa', '03:46 AM', 'Sep 24')]
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: chiththa, time: 03:46 AM, date: Sep 24
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 23/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra chiththa ending at 03:46 for 23/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:22 AM to 10:10 AM for 23/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 11:48 PM to 12:36 AM for 23/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 10:02 AM to 11:49 AM for 23/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 24/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 24/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Swathi', '06:39 AM', 'Sep 25')]
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: swathi, time: 06:39 AM, date: Sep 25
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 24/09/2025
+2025-07-03 12:50:13,851 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra swathi ending at 06:39 for 24/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 12:35 PM to 01:23 PM for 24/09/2025
+2025-07-03 12:50:13,851 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 10:03 AM to 11:50 AM for 24/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 25/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 25/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: []
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Found 0 nakshatras in description for 25/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 10:59 AM to 11:47 AM for 25/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 03:47 PM to 04:35 PM for 25/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 12:57 PM to 02:45 PM for 25/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 26/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 26/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Visakha', '09:39 AM', '')]
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: visakha, time: 09:39 AM, date: 
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: visakha
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 26/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra visakha ending at 09:39 for 26/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:23 AM to 10:11 AM for 26/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:22 PM to 02:10 PM for 26/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 02:09 PM to 03:57 PM for 26/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 27/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 27/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Anuradha', '12:38 PM', '')]
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: anuradha, time: 12:38 PM, date: 
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 27/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra anuradha ending at 12:38 for 27/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 07:00 AM to 07:48 AM for 27/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 07:48 AM to 08:36 AM for 27/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 06:53 PM to 08:40 PM for 27/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 28/09/2025
+2025-07-03 12:50:13,852 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 28/09/2025
+2025-07-03 12:50:13,852 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Jyestha', '03:25 PM', '')]
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: jyestha, time: 03:25 PM, date: 
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 28/09/2025
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra jyestha ending at 15:25 for 28/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 05:20 PM to 06:07 PM for 28/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 12:12 AM to 01:58 AM for 28/09/2025
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 29/09/2025
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 29/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Moola', '05:47 PM', '')]
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: moola, time: 05:47 PM, date: 
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_nakshatra_from_description - Found special nakshatra: moola
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 29/09/2025
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra moola ending at 17:47 for 29/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 01:21 PM to 02:09 PM for 29/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 03:44 PM to 04:31 PM for 29/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 04:02 PM to 05:47 PM for 29/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 04:07 AM to 05:50 AM for 29/09/2025
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Processing events for date: 30/09/2025
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Initialized new date entry for 30/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_nakshatra_from_description - Raw nakshatra periods found in line: [('Poorvashadha', '07:36 PM', '')]
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_nakshatra_from_description - Extracted nakshatra: poorvashadha, time: 07:36 PM, date: 
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Found 1 nakshatras in description for 30/09/2025
+2025-07-03 12:50:13,853 - DEBUG - icalParser6.py:extract_and_create_events - Added nakshatra poorvashadha ending at 19:36 for 30/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 09:24 AM to 10:12 AM for 30/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Dur Muhurtamulu event: 11:44 PM to 12:33 AM for 30/09/2025
+2025-07-03 12:50:13,853 - INFO - icalParser6.py:extract_and_create_events - Added Varjyam event: 03:58 AM to 05:39 AM for 30/09/2025
+2025-07-03 12:50:13,854 - INFO - icalParser6.py:extract_and_create_events - Created 978 special nakshatra transition combinations
+2025-07-03 12:50:13,854 - DEBUG - hora_calc.py:__init__ - Initialized VedicAstroClient with API key: 82c9fc43...
+2025-07-03 12:50:13,854 - DEBUG - hora_calc.py:calculate_hora_for_date - Calculating hora for date: 2025-05-02 00:00:00, location: (37.33939, -121.89496)
+2025-07-03 12:50:13,854 - DEBUG - hora_calc.py:calculate_hora_for_date - Using default Pacific timezone offset (-7)
+2025-07-03 12:50:13,854 - DEBUG - hora_calc.py:get_hora_muhurta - Requesting hora muhurta for date=02/05/2025, lat=37.33939, lon=-121.89496, tz=-7
+2025-07-03 12:50:13,885 - DEBUG - hora_calc.py:get_hora_muhurta - Making API request to endpoint: /v3-json/panchang/hora-muhurta
+2025-07-03 12:50:14,528 - DEBUG - hora_calc.py:get_hora_muhurta - Received API response with status: 200
+2025-07-03 12:50:14,530 - DEBUG - hora_calc.py:get_hora_muhurta - API returned error: Unknown error
+2025-07-03 12:50:14,534 - DEBUG - hora_calc.py:calculate_hora_for_date - API call failed with status: 402
+2025-07-03 12:50:14,534 - WARNING - icalParser6.py:extract_and_create_events - Hora API patch call failed or returned no data for +1 day.
+2025-07-03 12:50:14,535 - INFO - icalParser6.py:filter_events_to_window - Filtering calendar with 1 components
+2025-07-03 12:50:14,535 - INFO - icalParser6.py:filter_events_to_window - Window: 2025-03-31 to 2025-05-01
+2025-07-03 12:50:14,536 - INFO - icalParser6.py:filter_events_to_window - Filtered calendar has 1 components
+2025-07-03 12:50:14,536 - INFO - icalParser6.py:filter_events_to_window - Filtering calendar with 1 components
+2025-07-03 12:50:14,536 - INFO - icalParser6.py:filter_events_to_window - Window: 2025-03-31 to 2025-05-01
+2025-07-03 12:50:14,537 - INFO - icalParser6.py:filter_events_to_window - Filtered calendar has 1 components

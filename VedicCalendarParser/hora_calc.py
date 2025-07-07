@@ -6,6 +6,7 @@ from icalendar import Calendar, Event
 import pytz
 from typing import Optional, Tuple
 import logging
+from config import DEBUG_MODE
 
 logger = logging.getLogger(__name__)
 
@@ -38,6 +39,8 @@ class VedicAstroClient:
     def __init__(self, api_key='82c9fc43-1455-5016-b28b-43e78e614c34'):
         self.api_key = api_key
         self.base_url = "api.vedicastroapi.com"
+        if DEBUG_MODE:
+            logger.debug(f"Initialized VedicAstroClient with API key: {api_key[:8]}...")
         
     def get_hora_muhurta(self, date, lat, lon, tz=5.5, lang='en'):
         """
@@ -53,15 +56,24 @@ class VedicAstroClient:
         Returns:
             dict: JSON response from the API
         """
+        if DEBUG_MODE:
+            logger.debug(f"Requesting hora muhurta for date={date}, lat={lat}, lon={lon}, tz={tz}")
+        
         try:
             conn = http.client.HTTPSConnection(self.base_url)
             
             # Construct the API endpoint with parameters
             endpoint = f"/v3-json/panchang/hora-muhurta?api_key={self.api_key}&date={date}&lat={lat}&lon={lon}&tz={tz}&lang={lang}"
             
+            if DEBUG_MODE:
+                logger.debug(f"Making API request to endpoint: {endpoint.split('?')[0]}")
+            
             # Make the request
             conn.request("GET", endpoint)
             response = conn.getresponse()
+            
+            if DEBUG_MODE:
+                logger.debug(f"Received API response with status: {response.status}")
             
             # Read and decode the response
             data = response.read().decode("utf-8")
@@ -72,10 +84,13 @@ class VedicAstroClient:
             # Close the connection
             conn.close()
             
+            if DEBUG_MODE and json_data.get('status') != 200:
+                logger.debug(f"API returned error: {json_data.get('message', 'Unknown error')}")
+            
             return json_data
             
         except Exception as e:
-            print(f"Error making API request: {e}")
+            logger.error(f"Error making API request: {e}")
             return {
                 "error": str(e),
                 "status": "failed"
@@ -92,6 +107,8 @@ class HoraCalendar:
             keywords (list): List of hora keywords to filter for. Defaults to ['Mercury', 'Moon', 'Jupiter']
         """
         self.keywords = keywords or ['Mercury', 'Moon', 'Jupiter']
+        if DEBUG_MODE:
+            logger.debug(f"Initialized HoraCalendar with keywords: {self.keywords}")
     
     def create_events(self, result):
         """
@@ -103,67 +120,74 @@ class HoraCalendar:
         Returns:
             Calendar: ICS calendar with hora events
         """
+        if DEBUG_MODE:
+            logger.debug("Starting to create events from hora data")
+            
         cal = Calendar()
         
         # If result is a string, try to parse it as JSON
         if isinstance(result, str):
             try:
                 result = json.loads(result)
+                if DEBUG_MODE:
+                    logger.debug("Successfully parsed JSON string result")
             except json.JSONDecodeError as e:
                 logger.error(f"Error parsing JSON response: {e}")
                 return cal
-        
+                
         # Check if the result contains valid data
         if not isinstance(result, dict) or 'status' not in result:
-            logger.error("Invalid API response format")
+            if DEBUG_MODE:
+                logger.debug("Invalid API response format")
             return cal
         
         if result['status'] != 200:
-            logger.error(f"API returned error status: {result.get('message', 'Unknown error')}")
+            if DEBUG_MODE:
+                logger.debug(f"API returned error status: {result.get('message', 'Unknown error')}")
             return cal
         
         # Get the hora data
-        horas_data = result.get('response', {}).get('horas', [])
+            horas_data = result.get('response', {}).get('horas', [])
         if not horas_data:
-            logger.error("No hora data found in response")
+            if DEBUG_MODE:
+                logger.debug("No hora data found in response")
             return cal
+        
+        if DEBUG_MODE:
+            logger.debug(f"Processing {len(horas_data)} hora periods")
         
         for hora in horas_data:
             if not isinstance(hora, dict):
                 logger.error(f"Invalid hora data format: {hora}")
                 continue
             
-            # Get the hora value and check for keywords
-            hora_value = hora.get('hora', '')
-            
-            # Check if the hora matches any of our keywords
-            if hora_value not in self.keywords:
-                continue
-            
-            # Get start and end times
-            start_time = hora.get('start', '')
-            end_time = hora.get('end', '')
-            
-            if not start_time or not end_time:
-                logger.error(f"Missing start or end time for hora: {hora}")
-                continue
-            
+                # Get the hora value and check for keywords
+                hora_value = hora.get('hora', '')
+                
+                # Check if the hora matches any of our keywords
+                if hora_value not in self.keywords:
+                    continue
+                    
+                # Get start and end times
+                start_time = hora.get('start', '')
+                end_time = hora.get('end', '')
+                
+                if not start_time or not end_time:
+                    logger.error(f"Missing start or end time for hora: {hora}")
+                    continue
+                    
             try:
-                # Parse the datetime strings with the exact format from API response
-                datetime_format = "%a %b %d %Y %I:%M:%S %p"
+                # Always use the correct datetime format for hora events from the API
+                datetime_format = "%a %b %d %Y %I:%M:%S %p"  # Example: 'Wed Apr 16 2025 12:02:21 PM'
                 start_dt = datetime.strptime(start_time, datetime_format)
                 end_dt = datetime.strptime(end_time, datetime_format)
-                
+                    
                 # Create event
                 event = Event()
                 event.add('summary', f"Hora: {hora_value}")
                 event.add('dtstart', start_dt)
                 event.add('dtend', end_dt)
-                event.add('description', f"Benefits: {hora.get('benefits', '')}\nLucky Gem: {hora.get('lucky_gem', '')}")
                 event.add('class', 'FREE')
-                
-                # Add hora as category for better filtering
-                event.add('categories', [hora_value])
                 
                 cal.add_component(event)
                 logger.info(f"Added hora event: {hora_value} from {start_dt} to {end_dt}")
@@ -248,6 +272,9 @@ def calculate_hora_for_date(client, location, target_date: datetime, timezone_st
     Returns:
         dict: API response containing hora data for the specified date
     """
+    if DEBUG_MODE:
+        logger.debug(f"Calculating hora for date: {target_date}, location: ({location.latitude}, {location.longitude})")
+    
     try:
         # Format date as DD/MM/YYYY
         date_str = target_date.strftime('%d/%m/%Y')
@@ -257,8 +284,12 @@ def calculate_hora_for_date(client, location, target_date: datetime, timezone_st
             tz = pytz.timezone(timezone_str)
             offset = tz.utcoffset(target_date)
             tz_offset = offset.total_seconds() / 3600
+            if DEBUG_MODE:
+                logger.debug(f"Using provided timezone {timezone_str} with offset {tz_offset}")
         else:
             tz_offset = -7  # Default to Pacific time if no timezone specified
+            if DEBUG_MODE:
+                logger.debug("Using default Pacific timezone offset (-7)")
         
         result = client.get_hora_muhurta(
             date=date_str,
@@ -268,11 +299,20 @@ def calculate_hora_for_date(client, location, target_date: datetime, timezone_st
             lang=language
         )
         
+        if DEBUG_MODE:
+            if result.get('status') == 200:
+                hora_count = len(result.get('response', {}).get('horas', []))
+                logger.debug(f"Successfully retrieved {hora_count} hora periods")
+            else:
+                logger.debug(f"API call failed with status: {result.get('status')}")
+        
         print(f"Processed date: {date_str} with timezone offset: {tz_offset}")
         return result
         
     except Exception as e:
-        print(f"Error processing date {target_date}: {str(e)}")
+        logger.error(f"Error processing date {target_date}: {str(e)}")
+        if DEBUG_MODE:
+            logger.debug(f"Stack trace for hora calculation error: {str(e)}", exc_info=True)
         return None
 
 # Example usage:
@@ -297,11 +337,11 @@ if __name__ == "__main__":
         with open('hora_data.json', 'w') as f:
             json.dump(result, f, indent=2)
         print("API response has been saved to hora_data.json")
-        
-        # Create calendar events
+    
+    # Create calendar events
         hora_calendar = HoraCalendar()
         cal = hora_calendar.create_events(result)
-        
-        # Save to ICS file
+    
+    # Save to ICS file
         hora_calendar.save_to_ics(cal, 'hora_events.ics')
 

@@ -11,7 +11,7 @@ dependencies = [
     "icalendar",
     "requests",
     "pytz",
-    "hora_calc",
+
 ]
 
 [build-system]
